@@ -17,3 +17,111 @@
  /*"bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.section {
+  height: 2800px;
+  text-align: center;
+}
+
+/* Hero parallax */
+
+.bird-box {
+  position: relative;
+  height: 600px;
+  background-image: url('bird-bg.jpg');
+  background-size: auto 600px;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.logo {
+  height: 100px;
+  width: 100%;
+  background-image: url('bird-logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.fore-bird {
+  width: 960px;
+  height: 733px;
+  background-image: url('fore-bird.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+.back-bird {
+  width: 960px;
+  height: 298px;
+  background-image: url('back-bird.png');
+  background-repeat: no-repeat;
+  position: top left;
+  position: absolute;
+  left: 10%;
+}
+
+/*Portfolio parallax */
+.project-panel {
+  margin-bottom: 50px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
+
+  &.is-showing {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* About section*/
+.large-window {
+  height: 640px;
+  width: 640px;
+  margin: auto;
+  background-image: url('model2.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+/* Contact */
+.nicolas {
+  margin-top: 50px;
+  position: relative;
+
+}
+
+.nicolas-dessin {
+  max-width: 200px;
+  border: 1px solid #e1e1e1;
+  padding: 20px 20px 0;
+  background-color: white;
+
+}
+
+.nicolas-1 {
+  transform: translate(250px, 50px);
+  position: absolute;
+  z-index: 1;
+}
+
+.nicolas-2 {
+  position: absolute;
+  z-index: 3;
+}
+
+.nicolas-3 {
+  transform: translate(-250px, 50px);
+  position: absolute;
+  z-index: 2;
+}
