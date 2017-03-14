@@ -25,11 +25,11 @@ $(window).scroll(function(){
     'transform': 'translate(0px, -'+ wScroll /20 +'% )'
   });
 
-  $('.back-bird').css({
-    'transform': 'translate(0px, '+ wScroll /4 +'% )'
+  $('.engineer-drawing').css({
+    'transform': 'translate(0px, -'+ wScroll /40 +'% )'
   });
 
-  $('.fore-bird').css({
+  $('.developer-drawing').css({
     'transform': 'translate(0px, -'+ wScroll /11 +'% )'
   });
 

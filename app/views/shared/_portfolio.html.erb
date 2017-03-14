@@ -1,29 +1,76 @@
 <h1 class="section-title">Portfolio</h1>
-<ul>Tracking health check-ups
-Quarantine Data Collection
-Coder Factory Academy scholarship
-Travel Site
-Chat room</ul>
+<div class="portfolio-container">
 
-<div class="project-pics">
-  <div class="row project-panel">
-    <div class="col-xs-6">
-      <%= image_tag("RoR.svg", :alt => "ruby on rails") %>
+  <div class="project-pics">
+      <!-- Track your health project -->
+    <div class="row project-panel justify-content-md-center">
+        <div class="col-8" data-toggle="modal" data-target="#ruby-project1-Modal">
+          <h2>Track your health check-ups</h2>
+          <div class="line-break"></div>
+          <h3><strong><%= image_tag("RoR.svg", :alt => "ruby on rails", :class => "icon") %>Ruby / CLI</strong></h3>
+        </div>
     </div>
-    <div class="col-xs-6">
-      <h2>Track your health check-ups</h2>
-      <hr>
-      <h3><strong>Ruby / CLI</strong></h3>
+    <!-- Modal large for track your health project -->
+
+<div class="modal fade bd-example-modal-lg" id="ruby-project1-Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bigModal">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLongTitle">Track your health</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <h3><p>This project started from the need to have on hands my personal medical records. I travel a lot, never know when my routine health checks are due, and when I do, I never have the hard copies of my medical analyses, like cholesterol and all the things that a bon vivant gets!</p>
+          <p>So I coded in Ruby, using the command line interface, a tool to allow me to visualize past and future medical checkups, like my skin checks, dentist, and blood analysis. This tool let me attach all my records and retrieve them when things go sour...</h3>
+
+          <hr>
+              <h3>That's where the gif goes</h3>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-lg">Visit site</button>
+        </div>
     </div>
   </div>
-  <div class="row project-panel">
-    <div class="col-xs-6">
-      <%= image_tag("Node.svg", :alt => "node") %>
+
+</div>
+
+
+    <!-- Travel site project -->
+    <div class="row project-panel justify-content-md-center">
+
+        <div class="col-8">
+          <h2>Travel Site</h2>
+          <div class="line-break"></div>
+          <h3><strong><%= image_tag("Node.svg", :alt => "node", :class => "icon") %>NodeJS BEM / Github</strong></h3>
+        </div>
+
     </div>
-    <div class="col-xs-6">
-      <h2>Travel Site</h2>
-      <hr>
-      <h3><strong>NodeJS BEM / Github</strong></h3>
+
+
+    <!-- Scholarship project -->
+    <div class="row project-panel justify-content-md-center">
+
+        <div class="col-8">
+          <h2>CFA Woman Scholarship</h2>
+          <div class="line-break"></div>
+          <h3><strong><%= image_tag("Node.svg", :alt => "node", :class => "icon") %>NodeJS BEM / Github</strong></h3>
+        </div>
+
+    </div>
+    <!-- Chat room project -->
+    <div class="row project-panel justify-content-md-center">
+
+        <div class="col-8">
+          <h2>Chat room</h2>
+          <div class="line-break"></div>
+          <h3><strong><%= image_tag("Node.svg", :alt => "node", :class => "icon") %>NodeJS iSocket / Heroku</strong></h3>
+        </div>
+
     </div>
   </div>
 </div>
