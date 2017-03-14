@@ -18,9 +18,11 @@
 
 $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
+  console.log(wScroll);
 
-  $('.logo').css({
-    'transform': 'translate(0px, '+ wScroll /2 +'% )'
+//hero
+  $('.hero-description').css({
+    'transform': 'translate(0px, -'+ wScroll /20 +'% )'
   });
 
   $('.back-bird').css({
@@ -28,24 +30,30 @@ $(window).scroll(function(){
   });
 
   $('.fore-bird').css({
-    'transform': 'translate(0px, -'+ wScroll /20 +'% )'
+    'transform': 'translate(0px, -'+ wScroll /11 +'% )'
   });
 
+
+//portfolio
   if(wScroll > $('.project-panel').offset().top - ($(window).height() / 1.2)) {
     $('.project-panel').each(function(i){
       setTimeout(function(){
         $('.project-panel').eq(i).addClass('is-showing');
-      }, 250 * (i+1));
+      }, 150 * (i+1));
     });
+
   }
 
-  if(wScroll > $('.nicolas').offset().top - $(window).height()){
-    // var offset = wScroll - $('.nicolas').offset().top + $(window).height();
+//Contact
+if(wScroll > $('.skyline').offset().top - ($(window).height() / 1.2 - 400)) {
 
-    var offset = (Math.min(0, wScroll - $('.nicolas').offset().top +$(window).height() - 350)).toFixed();
+  // $('.flinders').css({
+  //   'transform': 'translate(0px, '+ wScroll /60 +'% )'
+  // });
+  $('.bridge').addClass('is-showing');
+  $('.flinders').addClass('is-showing');
 
-    $('.nicolas-1').css({'transform': 'translate('+ offset +'px , 20px)'});
-    $('.nicolas-3').css({'transform': 'translate('+ Math.abs(offset) +'px , '+ Math.abs(offset) +'px)'});
-  }
+}
+
 
 });

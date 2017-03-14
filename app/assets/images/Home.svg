@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="31px" viewBox="0 0 33 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Les-svgs" transform="translate(-287.000000, -110.000000)" fill="#000000">
+            <path d="M287.320801,125.318848 L303.870117,110.533691 L319.748047,125.500977 L316.446289,125.560059 C316.446289,125.560059 318.414062,139.925293 316.671875,139.999512 C314.929688,140.07373 306.702148,140.14209 306.702148,140.14209 L306.890625,128.672363 L300.349609,128.743164 L300.394043,140.012695 C300.394043,140.012695 292.04834,139.925293 290.543945,139.925293 C289.039551,139.925293 290.57373,125.436523 290.57373,125.436523 L287.320801,125.318848 Z" id="Home"></path>
+        </g>
+    </g>
+</svg>
