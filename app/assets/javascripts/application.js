@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
@@ -35,25 +36,13 @@ $(window).scroll(function(){
 
 
 //portfolio
-  if(wScroll > $('.project-panel').offset().top - ($(window).height() / 1.2)) {
-    $('.project-panel').each(function(i){
-      setTimeout(function(){
-        $('.project-panel').eq(i).addClass('is-showing');
-      }, 150 * (i+1));
-    });
 
-  }
 
 //Contact
-if(wScroll > $('.skyline').offset().top - ($(window).height() / 1.2 - 400)) {
+$('#melbourne-background').css({
+  'transform': 'translate(0px, '+ (wScroll*30)/wScroll +'% )'
+});
 
-  // $('.flinders').css({
-  //   'transform': 'translate(0px, '+ wScroll /60 +'% )'
-  // });
-  $('.bridge').addClass('is-showing');
-  $('.flinders').addClass('is-showing');
-
-}
 
 
 });

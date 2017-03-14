@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *
  *= require_tree .
  *= require_self
  */
@@ -25,21 +26,26 @@ body {
 
 h1 {
   font-family: 'Sigmar One', cursive;
-  font-size: 4.2rem;
+  font-size: 2.2rem;
 }
 
 h2 {
-  font-size: 3.8rem;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 2.9rem;
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+  font-weight: 200;
 }
 
 .about-description p {
-  font-weight: 600;
-  font-size: 3.5rem;
+  font-weight: 400;
+  font-size: 1.1rem;
   margin-bottom: 30px;
   text-align: justify;
 }
@@ -57,28 +63,49 @@ p:last-child {
 
 .section {
   height: 2800px;
-  width: 1200px;
   text-align: center;
   margin: auto;
 }
 
 .section-title {
-  margin: 40px 0 30px 0;
+  margin: 0 0 30px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.arrow-down {
+  width: 38px;
+  height: 30px;
+  background-image:url('arrown-down.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin: auto;
+}
+
+.dark-background {
+  background-color: #efeff4;
 }
 
 /* Navigation */
 .navigation {
   position: fixed;
   z-index: 10;
-  max-width: 1200px;
   width: 100%;
-  height: 90px;
+  height: 45px;
   background-color: white;
 }
 
 .icon {
-  padding: 20px 20px;
-  height: 80px;
+  padding: 10px 10px;
+  height: 25px;
+}
+
+.nav-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 25px;
 }
 
 .icon-left {
@@ -93,39 +120,54 @@ p:last-child {
   max-width: 100px;
 }
 
+.icon-hero {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 /* Hero parallax */
 .bird-box {
   position: relative;
-  height: 800px;
-  // background-image: url('bird-bg.jpg');
-  // background-size: contain;
-  // background-position: top center;
+  height: 505px;
+  width: 383px;
   background-color: #efeff4;
   background-attachment: fixed;
   overflow: hidden;
 }
 
 .hero-description {
-  height: 500px;
-  width: 450px;
+  height: 245px;
+  width: auto;
   margin: auto;
   position: relative;
   display: block;
-  top: 50%;
+  top: 65%;
   margin-top: -50px;
   overflow: hidden;
+}
 
+.hero-my-name {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.4rem;
 }
 
 .hero-description-title {
-  font-size: 4.1rem;
+  font-size: 1.4rem;
   line-height: 90%;
+  text-align: center;
 }
 
 .line-break {
-  height: 5px;
-  background-color: black;
+  height: 1px;
+  background-color: #e1e1e1;
   margin-top: 30px;
+  width: 66%;
+  margin: auto;
 }
 
 .hero-description-icons{
@@ -136,27 +178,26 @@ p:last-child {
 
 
 .developer-drawing {
-  width: 960px;
-  height: 733px;
+  width: 255px;
+  height: 163px;
   background-image: url('developer-facing-right.png');
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 40% 40%;
   position: absolute;
-  left: 15%;
-  top: 5%;
+  right: 5%;
+  top: 50%;
+
 }
 
 .engineer-drawing {
-  width: 380px;
-  height: 400px;
+  width: 267px;
+  height: 200px;
   background-image: url('chemical-engineer-facing-left.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  // position: top;
   position: absolute;
-  // left: 10%;
-  top: 22%;
+  left: 0%;
+  top: 21%;
+
 }
 
 /*Portfolio parallax */
@@ -166,7 +207,36 @@ p:last-child {
   background-color: #e1e1e1;
 }
 
+.project-row {
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
 
+.node-icon {
+  width: 33%;
+  height: 50px;
+  background-image: url('Node.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 5%;
+}
+
+.ruby-icon {
+  width: 33%;
+  height: 40px;
+  background-image: url('Ruby.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 5%;
+}
+
+.coding-project {
+  width: 66%;
+  margin: auto;
+}
 
 .project-panel {
   margin-bottom: 50px;
@@ -179,6 +249,10 @@ p:last-child {
     opacity: 1;
     transform: translateX(0px);
   }
+}
+
+.coding-project:last-child {
+  margin-bottom: 50px;
 }
 
 /* About section*/
@@ -194,27 +268,27 @@ p:last-child {
 }
 
 .large-window {
-  height: 640px;
-  width: 640px;
+  height: 300px;
+  width: 300px;
   margin: auto;
-  background-image: url('model2.jpg');
+  background-image: url('profile-photo.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   border-radius: 50%;
+  margin-bottom: 60px;
 }
 
 /* Contact */
 .melbourne-wrapper {
   position: relative;
   height: 1500px;
-  width: 1200px;
+  // width: 1200px;
   overflow: hidden
 }
 
 .email-box {
   height: 80px;
-
   width: 66%;
   margin: auto;
   margin-bottom: 30px;
@@ -237,7 +311,7 @@ p:last-child {
 
 }
 
-.melbourne-background {
+#melbourne-background {
   position: absolute;
   height: 700px;
   width: 1300px;
@@ -246,12 +320,13 @@ p:last-child {
   background-position: top center;
   background-size: contain;
   z-index: 1;
+  top: -5%;
   // right: 5%;
 }
 
-.melbourne-foreground {
+#melbourne-foreground {
   height: 700px;
-  width: 1200px;
+  // width: 1200px;
   position: absolute;
   background-image: url("melbourne-foreground-solid.png");
   background-repeat: no-repeat;
@@ -262,7 +337,7 @@ p:last-child {
   // left: 5%;
 }
 
-.tram {
+#tram {
   height: 400px;
   width: 600px;
   position: absolute;
@@ -276,7 +351,7 @@ p:last-child {
 }
 
 
-.ferris-wheel {
+#ferris-wheel {
   height: 700px;
   width: 742px;
   position: absolute;
