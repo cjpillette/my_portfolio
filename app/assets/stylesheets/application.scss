@@ -19,6 +19,9 @@
 @import "bootstrap";
 // @import "bootstrap-sprockets";
 
+@-ms-viewport{
+  width: device-width;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -26,7 +29,7 @@ body {
 
 h1 {
   font-family: 'Sigmar One', cursive;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -43,6 +46,15 @@ h4 {
   font-weight: 200;
 }
 
+a  {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F71E1E;
+}
+
 .about-description p {
   font-weight: 400;
   font-size: 1.1rem;
@@ -55,9 +67,9 @@ p:last-child {
 }
 
 .boxed {
-  border: 1px solid black;
-  box-shadow: 10px 10px 5px #888888;
-  border-radius: 5px;
+  border: 1px solid grey;
+  // box-shadow: 5px 5px 2px #e1e1e1;
+  // border-radius: 5px;
   background-color: white;
 }
 
@@ -68,18 +80,25 @@ p:last-child {
 }
 
 .section-title {
-  margin: 0 0 30px 0;
+  margin: 0 0 25px 0;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.small-bottom-margin {
+  margin: 0;
 }
 
 .arrow-down {
   width: 38px;
   height: 30px;
-  background-image:url('arrown-down.svg');
+  position: absolute;
+  background-image:url('arrow-down.svg');
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: center;
   margin: auto;
+  left: 45%;
+  top: 95%;
 }
 
 .dark-background {
@@ -101,8 +120,8 @@ p:last-child {
 }
 
 .nav-icon {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 0;
   height: 25px;
@@ -114,6 +133,12 @@ p:last-child {
 
 .icon-right {
   float: right;
+}
+
+.icon-center {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .icon-large {
@@ -132,14 +157,15 @@ p:last-child {
 .bird-box {
   position: relative;
   height: 505px;
-  width: 383px;
+  width: auto;
   background-color: #efeff4;
   background-attachment: fixed;
   overflow: hidden;
+
 }
 
 .hero-description {
-  height: 245px;
+  // height: 245px;
   width: auto;
   margin: auto;
   position: relative;
@@ -151,6 +177,7 @@ p:last-child {
 
 .hero-my-name {
   padding: 20px 0;
+  letter-spacing: 5px;
   text-align: center;
   font-weight: 100;
   font-size: 1.4rem;
@@ -180,23 +207,25 @@ p:last-child {
 .developer-drawing {
   width: 255px;
   height: 163px;
-  background-image: url('developer-facing-right.png');
+  background-image: url('developer2x.png');
   background-repeat: no-repeat;
+  background-size: 60% 60%;
   background-position: right bottom;
   position: absolute;
   right: 5%;
-  top: 50%;
+  top: 28%;
 
 }
 
 .engineer-drawing {
   width: 267px;
   height: 200px;
-  background-image: url('chemical-engineer-facing-left.png');
+  background-image: url('chemical-engineer2x.png');
   background-repeat: no-repeat;
+  background-size: 80% 80%;
   position: absolute;
   left: 0%;
-  top: 21%;
+  top: 25%;
 
 }
 
@@ -205,7 +234,10 @@ p:last-child {
 .portfolio-container {
   margin: auto;
   background-color: #e1e1e1;
+  position: relative;
+  padding-bottom: 10px;
 }
+
 
 .project-row {
   margin: auto;
@@ -226,7 +258,7 @@ p:last-child {
 .ruby-icon {
   width: 33%;
   height: 40px;
-  background-image: url('Ruby.svg');
+  background-image: url('Ruby-red.svg');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -255,15 +287,30 @@ p:last-child {
   margin-bottom: 50px;
 }
 
+/* nicolas portfolio*/
+
+.nicolas-container {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.nicolas-row {
+  display: inline-block;
+}
+
 /* About section*/
 
 .about-container {
   width: 90%;
   margin: auto;
+  position: relative;
+  padding-bottom: 50px;
 }
 
 .about-description {
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 
@@ -271,83 +318,96 @@ p:last-child {
   height: 300px;
   width: 300px;
   margin: auto;
-  background-image: url('profile-photo.jpg');
+  background-image: url('model2.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  // background-attachment: fixed;
+  background-attachment: fixed;
   border-radius: 50%;
-  margin-bottom: 60px;
+  // margin-bottom: 10px;
+}
+
+.learn-more-button {
+  background-color: #F71E1E;
+  padding: 10px 50px;
+  color: white;
+  border: 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 /* Contact */
 .melbourne-wrapper {
   position: relative;
-  height: 1500px;
+  height: 480px;
   // width: 1200px;
   overflow: hidden
 }
 
 .email-box {
-  height: 80px;
-  width: 66%;
+  height: 30px;
+  width: 85%;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .message-box {
-  height: 200px;
-
-  width: 66%;
+  height: 100px;
+  text-align: top;
+  overflow: auto;
+  width: 85%;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
 }
 
 .send-button {
-  height: 80px;
-  width: 66%;
+  height: 25px;
+  width: 85%;
   margin: auto;
-  margin-bottom: 30px;
-
+  margin-bottom: 0;
 }
 
 #melbourne-background {
   position: absolute;
-  height: 700px;
-  width: 1300px;
-  background-image: url("skyline-small.png");
+  height: 282px;
+  width: 375px;
+  background-image: url("Melbourne-skyline2x.png");
   background-repeat: no-repeat;
+  background-size: 50% 50%;
   background-position: top center;
   background-size: contain;
   z-index: 1;
-  top: -5%;
+  top: -20%;
   // right: 5%;
 }
 
 #melbourne-foreground {
-  height: 700px;
-  // width: 1200px;
+  height: 223px;
+  width: 375px;
   position: absolute;
-  background-image: url("melbourne-foreground-solid.png");
+  background-image: url("melbourne-foreground-solid2x.png");
+  background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
   z-index: 2;
-  top: 15%;
+  top: 20%;
   // left: 5%;
 }
 
 #tram {
-  height: 400px;
-  width: 600px;
+  height: 113px;
+  width: 150px;
   position: absolute;
-  background-image: url("tram-small.png");
+  background-image: url("tram2x.png");
+  background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
   z-index: 3;
-  top: 40%;
-  left: 12%;
+  top: 45%;
+  left: 18%;
 }
 
 
@@ -362,5 +422,5 @@ p:last-child {
   position: absolute;
   z-index: -1;
   // left:8%;
-  top: 28%;
+  // top: 28%;
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="26px" viewBox="0 0 28 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin-svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Les-svgs" transform="translate(-347.000000, -499.000000)" stroke="#F71E1E">
+            <g id="linkedin-svg" transform="translate(348.000000, 500.000000)">
+                <polygon id="Path-55" points="1 8 6.47802734 8.06494141 6.55712891 24.4560547 1.03808594 24.4155273"></polygon>
+                <circle id="Oval-4" cx="3" cy="3" r="3"></circle>
+                <path d="M13.7197266,24.2905273 L9.08984375,24.3823242 L9.09765625,7.93652344 L13.7954102,7.92773437 C13.7954102,7.92773437 13.2336426,10.5112305 14.1809082,9.30810547 C15.0249023,8.76879883 15.7998047,7.93652344 18.9711914,7.86035156 C22.1425781,7.78417969 24.2559588,8.00276343 25.3666992,10.8564453 C25.9921875,12.3979492 25.3666992,24.2915039 25.3666992,24.2915039 L20.5078125,24.2905273 L20.5078125,14.2446289 C20.5078125,12.2871094 18.5816511,12.4266127 16.9858398,12.3979492 C15.3900286,12.3692857 13.7954102,12.3979492 13.7216797,14.2446289 C13.6479492,16.0913086 13.7197266,24.2905273 13.7197266,24.2905273 Z" id="Path-56"></path>
+            </g>
+        </g>
+    </g>
+</svg>
