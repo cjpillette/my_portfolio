@@ -18,7 +18,7 @@ I was inspired by two developers. Firstly, Andre S
 ## Font-family
 
 # Wireframes
-![ alt text](https://thawing-depths-33782.herokuapp.com/assets/About-2e3b0b29d33893b32d203b96eb607c92e7692ee50f713297ae3eb048eb00fc40.svg "testing here cos lost")
+![alt text](https://thawing-depths-33782.herokuapp/developer2x.png)
 
 
 # TECHNICAL CHALLENGES
