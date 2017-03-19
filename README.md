@@ -18,7 +18,7 @@ I was inspired by two developers. Firstly, Andre S
 ## Font-family
 
 # Wireframes
-![alt text](https://thawing-depths-33782.herokuapp/developer2x.png)
+![Alt text](app/assets/images/Home.svg?raw=true "Home icon")
 
 
 # TECHNICAL CHALLENGES
