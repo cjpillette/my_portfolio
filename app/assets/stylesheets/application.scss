@@ -677,3 +677,71 @@ p:last-child {
   }
 
 }
+
+/* Responsive for Desktop*/
+
+@media screen and (min-width: 1440px){
+
+  .navigation {
+    height: 5rem;
+  }
+
+  .nav-icon {
+    margin-top: 1.6rem;
+    height: 2rem;
+  }
+
+  .icon-right {
+    padding-right: 2rem;
+  }
+
+  .icon-left {
+    padding-left: 2rem;
+  }
+
+  .hero-box {
+    height: 51.5625rem;
+  }
+
+  .hero-description-title {
+    font-size: 3rem;
+  }
+
+  .hero-description-title:nth-child(4){
+    padding-bottom: 2rem;
+  }
+
+  .hero-description {
+    top: 60%;
+    margin-top: -3.125rem;
+    overflow: hidden;
+  }
+
+  .hero-my-name {
+    padding-top: 0.625rem;
+    padding-bottom: 1.25rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.6rem;
+    font-family: 'Hiragino Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  .hero-description-icons {
+    margin-top: 2rem;
+  }
+
+  .hero-icon {
+    height: 2rem;
+  }
+
+  .large-window {
+    display: none;
+  }
+
+  .about-description {
+    width: 50%;
+    float: left;
+  }
+}
