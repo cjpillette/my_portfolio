@@ -1,5 +1,30 @@
 <div class=section>
   <%= render 'shared/navigation_project_page'%>
-  <h3>section about travel site</h3>
-  <%= render 'shared/footer'%>
+
+  <div class="project-container">
+    <h1 class="section-project-title">Travel site</h1>
+    <hr />
+    <div class="about-description">
+      <p>&nbsp;This project started from what I like to call my spaghetti CSS. I wanted to learn a better to write and structure my css.</p>
+  	  <p>&nbsp;So I took a udemy class (with Brad Schiff) and went head over heel on the BEM (Block - Element - Modifer) methodology.</p>
+      <p>&nbsp;I’ve also set up my environment so that changes done on my code (stylesheets and javascripts) would automatically generate a refresh of the brower. I’ve used gulp to get this efficiency.</p>
+    </div>
+  </div>
+
+  <%= image_tag("travel-1.jpg", :alt => "quarantine website screen shot", :class => "project-screen-shot") %>
+  <div class="about-description">
+  <p>&nbsp;To set up my automation system I’ve familiarised myself with npm (node package management) which live in my package.json file.</p>
+  </div>
+
+  <%= image_tag("travel-2.jpg", :alt => "quarantine website screen shot", :class => "project-screen-shot") %>
+  <div class="about-description">
+  <p>&nbsp;To set up my automation system I’ve familiarised myself with npm (node package management) which live in my package.json file.</p>
+  </div>
+
+  <%= image_tag("travel-3.jpg", :alt => "quarantine website screen shot", :class => "project-screen-shot") %>
+
+  <a href="https://cjpillette.github.io/travel-site/" class="visit-project-site">Visit site here</a>
+  <div class="arrow-up"></div>
+
+
 </div>

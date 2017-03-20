@@ -23,6 +23,9 @@
   width: device-width;
 }
 
+$main-red: #F71E1E;
+$main-grey: #E0DFE9;
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -56,7 +59,7 @@ a  {
 }
 
 a:hover {
-  color: #F71E1E;
+  color: $main-red;
 }
 
 .about-description p {
@@ -331,7 +334,7 @@ p:last-child {
 }
 
 .learn-more-button {
-  background-color: #F71E1E;
+  background-color: $main-red;
   padding: 10px 50px;
   color: white;
   border: 0;
@@ -435,6 +438,12 @@ p:last-child {
   margin: auto;
 }
 
+.row-below-nav {
+  padding-top: 80px;
+  padding-bottom: 15px;
+  vertical-align: center;
+}
+
 .project-container {
     width: 90%;
     margin: auto;
@@ -446,17 +455,64 @@ p:last-child {
   padding-top: 80px;
 }
 
-.project-separator {
-  height: 4px;
-  color: black;
-  margin: auto;
+.project-screen-shot {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.section-title-project {
+.section-project-title {
   font-family: 'Hiragino Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 0;
   padding-bottom: 0;
+}
+
+.experience-company-name {
+  font-family: 'Hiragino Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right:0;
+}
+
+.experience-company-position {
+  font-family: 'Hiragino Sans', sans-serif;
+  font-size: 14px;
+  text-align: right;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left:20px;
+}
+
+.job-description {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.red-project-title {
+  color: red;
+  font-family: 'Hiragino Sans', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.red-about-me-icon {
+  display: block;
+  height: 28px;
+  // width: 20px;
+  margin-top: 5px;
+  padding-left: 0;
 }
 
 .arrow-up {
@@ -474,4 +530,28 @@ p:last-child {
 .visit-project-site {
   text-decoration: underline;
   padding-top: 33px;
+}
+
+.skill-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-section:nth-child(2){
+  margin-bottom: 30px
+}
+
+.skill-section:nth-child(6){
+  margin-bottom: 30px
+}
+
+.skill-title {
+  text-align: left;
+}
+
+.dot-competence {
+  width: 10px;
+  height: 10px;
+  margin-left:5px;
+  margin-right: 5px;
 }

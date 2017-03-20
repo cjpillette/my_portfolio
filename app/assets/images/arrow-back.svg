@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="30px" viewBox="0 0 36 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sandbox---Les-svgs" transform="translate(-376.000000, -337.000000)" stroke="#000000" fill="#000000">
+            <path d="M411.118652,366.111328 C411.118652,366.111328 407.892578,360.231934 400.175781,357.912598 C392.458984,355.593262 390.346191,356.498047 390.346191,356.498047 L390.261719,364.478027 L377.008301,351.019043 L390.378906,337.707031 L390.330078,345.196289 C390.330078,345.196289 397.744141,346.6875 403.314453,351.90918 C408.884766,357.130859 411.118652,366.111328 411.118652,366.111328 Z" id="arrow-back"></path>
+        </g>
+    </g>
+</svg>

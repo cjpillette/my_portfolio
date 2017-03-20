@@ -1,5 +1,22 @@
 <div class=section>
   <%= render 'shared/navigation_project_page'%>
-  <h3>section about chat room</h3>
-  <%= render 'shared/footer'%>
+
+  <div class="project-container">
+    <h2 class="section-project-title">Web Chat room</h2>
+    <hr />
+    <div class="about-description">
+      <p>&nbsp;I must admit I’ve quickly fallen in love with nodeJS.</p>
+  	  <p>&nbsp;For my quarantine data collection project I was aiming to draw from a third party (such as flightstats.com) the json data pertaining to flight arrivals at the 5 Tasmanian airports.</p>
+      <p>&nbsp;Officers at the airports wouldn’t have to enter flight numbers; they would automatically be displayed on the website.</p>
+      <p>&nbsp;I had to first understand what WebSockets were, so I’ve enrolled in a Udemy course and developed a site allowing multiple users to chat and to display their geographical locations from the google map api.</p>
+    </div>
+
+      <%= image_tag("web-chat-1.jpg", :alt => "web chat room screen shot", :class => "project-screen-shot") %>
+      <%= image_tag("web-chat-2.jpg", :alt => "web chat room screen shot", :class => "project-screen-shot") %>
+      <%= image_tag("web-chat-3.jpg", :alt => "web chat room screen shot", :class => "project-screen-shot") %>
+    </div>
+
+  <a href="https://dry-basin-71739.herokuapp.com/" class="visit-project-site">Visit site here</a>
+  <div class="arrow-up"></div>
+
 </div>

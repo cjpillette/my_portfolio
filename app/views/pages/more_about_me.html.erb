@@ -1,5 +1,156 @@
 <div class=section>
   <%= render 'shared/navigation_project_page'%>
-  <h3>section about more about me</h3>
-  <%= render 'shared/footer'%>
+
+  <div class="project-container">
+    <div class="row row-below-nav">
+      <div class="col-2">
+        <%= image_tag("all-about-me-icon.svg", :alt => "all about me", :class => "red-about-me-icon") %>
+      </div>
+      <div class="col-10">
+        <div class="red-project-title">What I'm all about</div>
+      </div>
+    </div>
+    <div class="about-description">
+      <p>&nbsp;I’m Carole, an international traveller with a somewhat persistent French accent. Polymath at heart, I love to constantly explore new horizons. </p>
+  	  <p>&nbsp;Once a chemical engineer, a personal trainer, a workshop provider and a quarantine officer, I’m now learning code to build full stack products for the internet. </p>
+      <p>&nbsp;This prior life and work experience has given me the skills to communicate and relate to people of different cultures and backgrounds.</p>
+      <p>&nbsp;I enjoy crafting pretty things and nifty solutions to complicated problems. Extracurricular activities involve thin air, like flying, and far more breathable air for rollerblading, drawing cartoons and anything fibre related!</p>
+    </div>
+  </div>
+
+  <div class="project-container">
+    <div class="row">
+      <div class="col-2">
+        <%= image_tag("experience-icon.svg", :alt => "experience", :class => "red-about-me-icon") %>
+      </div>
+      <div class="col-10">
+        <div class="red-project-title">Experience</div>
+      </div>
+    </div>
+    <div class="about-description">
+      <div class="row">
+        <div class="experience-company-name">IBM</div>
+          <div class="experience-company-position">Process Engineer</div>
+      </div>
+          <p class="job-description">&nbsp;Created and optimised processes for the production of microchips in the lithophotography department</p>
+
+      <div class="row">
+        <div class="experience-company-name">Quarantine Tasmania</div>
+        <div class="experience-company-position">Data manager</div>
+      </div>
+          <p class="job-description">&nbsp;Designed systems to collect border and post-border biosecurity data in order to prioritise activities and allocate resource distribution based on risk assessment</p>
+
+        <div class="row">
+          <div class="experience-company-name">Coder Factory Academy</div>
+          <div class="experience-company-position">Student</div>
+        </div>
+            <p class="job-description">&nbsp;Learning Ruby on Rails and the MERN full stacks to build products for the internet </p>
+    </div>
+  </div>
+
+  <div class="project-container">
+    <div class="row">
+      <div class="col-2">
+        <%= image_tag("skills-icon.svg", :alt => "skills", :class => "red-about-me-icon") %>
+      </div>
+      <div class="col-10">
+        <div class="red-project-title">Skills</div>
+      </div>
+    </div>
+    <div class="about-description">
+      <div class="row skill-section">
+        <div class="col-6 skill-title">Adobe Photoshop</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">Sketch</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">HTML</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">CSS</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">Ruby</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">Javascript</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">Rails</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">NodeJS</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+      <div class="row skill-section">
+        <div class="col-6 skill-title">ReactJS</div>
+        <div class="col-6">
+          <%= image_tag("black-dot.svg", :alt => "competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+          <%= image_tag("white-dot.svg", :alt => "non-competence", :class => "dot-competence") %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-up"></div>
+
 </div>

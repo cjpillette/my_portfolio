@@ -1,5 +1,20 @@
 <div class=section>
   <%= render 'shared/navigation_project_page'%>
-  <h3>section about my ruby project</h3>
-  <%= render 'shared/footer'%>
+
+  <div class="project-container">
+    <h2 class="section-project-title">Teeth, blood and all!</h2>
+    <hr />
+    <div class="about-description">
+      <p>&nbsp;This is my first PURE Ruby program being used in the Command Line Interface (CLI).</p>
+  	  <p>&nbsp;My audience are people on the move, like me, and who change  practitioners constantly. It’s hard to keep track of when your last dental check was performed and what your blood results were.</p>
+      <p>&nbsp;So I’ve build an app in Ruby allowing users to visualise past and future appointments and attached to a visit medical results. The app lets you retrieve past results that you can take to your new doctor on your next visit.</p>
+    </div>
+
+      <%= image_tag("ruby-cli-1.jpg", :alt => "web chat room screen shot", :class => "project-screen-shot") %>
+      <%= image_tag("ruby-cli-2.jpg", :alt => "web chat room screen shot", :class => "project-screen-shot") %>
+    </div>
+
+  <%= link_to "See clip here",  pages_ruby_cli_display_path, :class => "visit-project-site" %>
+  <div class="arrow-up"></div>
+
 </div>
