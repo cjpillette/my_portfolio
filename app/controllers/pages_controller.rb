@@ -20,5 +20,8 @@ class PagesController < ApplicationController
   def pure_ruby_project
   end
 
+  def ruby_cli_display
+  end
+
 
 end

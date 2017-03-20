@@ -46,6 +46,10 @@ h4 {
   font-weight: 200;
 }
 
+img {
+  max-width: 100%;
+}
+
 a  {
   color: #000;
   text-decoration: none;
@@ -74,7 +78,7 @@ p:last-child {
 }
 
 .section {
-  height: 2800px;
+  // height: 2800px;
   text-align: center;
   margin: auto;
 }
@@ -423,4 +427,51 @@ p:last-child {
   z-index: -1;
   // left:8%;
   // top: 28%;
+}
+
+// Projects
+.section_project {
+  text-align: center;
+  margin: auto;
+}
+
+.project-container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.project-title {
+  padding-top: 80px;
+}
+
+.project-separator {
+  height: 4px;
+  color: black;
+  margin: auto;
+}
+
+.section-title-project {
+  font-family: 'Hiragino Sans', sans-serif;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.arrow-up {
+  width: 20px;
+  height: 11px;
+  background-image:url('arrow-up.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.visit-project-site {
+  text-decoration: underline;
+  padding-top: 33px;
 }
