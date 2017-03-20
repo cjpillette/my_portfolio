@@ -10,7 +10,7 @@ THUS SHOWING THE VIEWER WHAT MY WORLD IS ABOUT
 
 3. Inviting the viewer to contact me in this beautiful city of Melbourne. The use of parallax sets the scene in motion; adding the movement of the tram incites the viewer to TAKE THE JOURNEY AND JOIN ME.
 
-photo of movement
+![Home page](reference/Layout-inspiration.jpg)
 
 # INSPIRATION
 Given that the above narrative is the keystone of my website, I wanted to keep sections clean, simple and articulated. Therefore they each have a neutral palette tone, yet with a 'red' element in each (to keep the flow and articulate each part with one another). I've also included my own art work to personalise my website.
@@ -20,7 +20,7 @@ I was inspired by two developers. Firstly, Andre Sinarritu from [andresinarritu.
 
 I was also inspired by Jacob Coury from [jacobcouryart.com] (http://www.jacobcouryart.com/) with this clean and clear display.
 
-photo of screen shots
+![Home page](reference/portfolio-inspiration.jpg)
 
 ## Colour palette
 
@@ -28,7 +28,7 @@ I opted for a minimalist set of colour. I was inspired by the red of the free in
 
 To balance the red I chose a blue-ish grey.
 
-photo of the palette
+![Home page](reference/color-palette.png)
 
 ## Font-family
 
@@ -38,14 +38,13 @@ I've selected 3 different font-family for this site.
 
 2. The font I've used for my main titles is **Sigmar One**. It is a fun font, inspired by mid-twentieth century pulp magazine advertising.
 
-photo of pulp magazine
+![Home page](reference/pulp-magazine.jpg)
 
 3. Finally I've selected the **Hiragino Sans** font for the sub-titles. Hiragino was created in Japan for the kana typeface and used to produce the 7000 glyphs! Glyphs which remind me in some ways of my little cartoons. The 'sans' version of the font was designed in China by a top female designer: Ms. Zhong!
 
 # Wireframes
-![Alt text](app/assets/images/Home.svg?raw=true "Home icon")
 
-photo of wireframes
+![Home page](reference/wireframe.png)
 
 # TECHNICAL CHALLENGES
 I've opted to use Rails5 and deploy my app on heroku, for 2 reasons:
