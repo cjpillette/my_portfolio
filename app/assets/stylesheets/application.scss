@@ -67,12 +67,12 @@ a:hover {
 .about-description p {
   font-weight: 400;
   font-size: 1.1rem;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   text-align: justify;
 }
 
 p:last-child {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .boxed {
@@ -89,9 +89,9 @@ p:last-child {
 }
 
 .section-title {
-  margin: 0 0 25px 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin: 0 0 1.5625rem 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .small-bottom-margin {
@@ -99,8 +99,8 @@ p:last-child {
 }
 
 .arrow-down {
-  width: 38px;
-  height: 30px;
+  width: 2.375rem;
+  height: 1.875rem;
   position: absolute;
   background-image:url('arrow-down.svg');
   background-repeat: no-repeat;
@@ -110,30 +110,30 @@ p:last-child {
   top: 95%;
 }
 
-.dark-background {
-  background-color: #efeff4;
-}
+// .dark-background {
+//   background-color: #efeff4;
+// }
 
 /* Navigation */
 .navigation {
   position: fixed;
   z-index: 10;
   width: 100%;
-  height: 45px;
+  height: 2.8125rem;
   background-color: white;
 }
 
 .icon {
-  padding: 10px 10px;
-  height: 25px;
+  padding: 0.625rem 0.625rem;
+  height: 1.5625rem;
 }
 
 .nav-icon {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.625rem;
   margin-bottom: 0;
-  height: 25px;
+  height: 1.5625rem;
 }
 
 .icon-left {
@@ -146,26 +146,26 @@ p:last-child {
 
 .icon-center {
   margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
 }
 
 .icon-large {
-  max-width: 100px;
+  max-width: 6.25rem;
 }
 
 .icon-hero {
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.625rem;
 }
 
 /* Hero parallax */
 .hero-box {
   position: relative;
-  height: 550px;
+  height: 34.375rem;
   width: auto;
   background-color: $main-grey;
   background-attachment: fixed;
@@ -180,14 +180,14 @@ p:last-child {
   position: relative;
   display: block;
   top: 65%;
-  margin-top: -50px;
+  margin-top: -3.125rem;
   overflow: hidden;
 }
 
 .hero-my-name {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  letter-spacing: 8px;
+  padding-top: 0.625rem;
+  padding-bottom: 1.25rem;
+  letter-spacing: 0.5rem;
   text-align: center;
   font-weight: 100;
   font-size: 1.4rem;
@@ -199,14 +199,14 @@ p:last-child {
   font-size: 1.4rem;
   line-height: 90%;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
 }
 
 .line-break {
   height: 1px;
   background-color: $dark-grey;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   width: 66%;
   margin: auto;
 }
@@ -219,8 +219,8 @@ p:last-child {
 
 
 .developer-drawing {
-  width: 255px;
-  height: 163px;
+  width: 14.0625rem;
+  height: 10.1875rem;
   background-image: url('developer2x.png');
   background-repeat: no-repeat;
   background-size: 60% 60%;
@@ -228,12 +228,12 @@ p:last-child {
   position: absolute;
   right: 7%;
   top: 26%;
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .engineer-drawing {
-  width: 267px;
-  height: 200px;
+  width: 16.6875rem;
+  height: 12.5rem;
   background-image: url('chemical-engineer2x.png');
   background-repeat: no-repeat;
   background-size: 80% 80%;
@@ -244,8 +244,8 @@ p:last-child {
 }
 
 .artist-drawing {
-  width: 267px;
-  height: 200px;
+  width: 16.6875rem;
+  height: 12.5rem;
   background-image: url('artist.png');
   background-repeat: no-repeat;
   background-size: 80% 80%;
@@ -261,19 +261,19 @@ p:last-child {
   margin: auto;
   background-color: $main-grey;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 
 .project-row {
   margin: auto;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .node-icon {
   width: 33%;
-  height: 50px;
+  height: 3.125rem;
   background-image: url('Node.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -283,7 +283,7 @@ p:last-child {
 
 .ruby-icon {
   width: 33%;
-  height: 40px;
+  height: 2.5rem;
   background-image: url('Ruby-red.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -297,14 +297,14 @@ p:last-child {
 }
 
 .more-about-project {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .project-panel {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   position: relative;
   opacity: 0;
-  transform: translateX(-20px);
+  transform: translateX(-1.25rem);
   transition: all 0.3s ease-in-out;
 
   &.is-showing {
@@ -314,7 +314,7 @@ p:last-child {
 }
 
 .coding-project:last-child {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 /* nicolas portfolio*/
@@ -323,7 +323,7 @@ p:last-child {
   width: 90%;
   margin: auto;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
 .nicolas-row {
@@ -336,7 +336,7 @@ p:last-child {
   width: 90%;
   margin: auto;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
 .about-description {
@@ -345,25 +345,24 @@ p:last-child {
 }
 
 .large-window {
-  height: 300px;
-  width: 300px;
+  height: 18.75rem;
+  width: 18.75rem;
   margin: auto;
   background-image: url('model2.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   border-radius: 50%;
-  // margin-bottom: 10px;
 }
 
 .learn-more-button {
   background-color: $main-red;
-  padding: 10px 50px;
+  padding: 0.625rem 3.125rem;
   color: white;
   border: 0;
-  margin-top: 30px;
-  border-radius: 10px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  margin-top: 1.875rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.0625rem 0.125rem 0.25rem rgba(0, 0, 0, .5);
 }
 
 /* Art */
@@ -379,57 +378,49 @@ p:last-child {
   margin: auto;
   background-color: $main-grey;
   position: relative;
-  padding-bottom: 10px;
 }
 
 .melbourne-wrapper {
   position: relative;
-  height: 400px;
+  height: 18rem;
   // width: 1200px;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .email-box {
-  height: 30px;
+  height: 1.875rem;
   width: 85%;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .message-box {
-  height: 100px;
+  height: 6.25rem;
   text-align: top;
   overflow: auto;
   width: 85%;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
-}
-
-.send-button {
-  height: 25px;
-  width: 85%;
-  margin: auto;
-  margin-bottom: 0;
 }
 
 #melbourne-background {
   position: absolute;
-  height: 282px;
-  width: 375px;
+  height: 19rem;
+  width: 23.4375rem;
   background-image: url("Melbourne-skyline2x.png");
   background-repeat: no-repeat;
   background-size: 50% 50%;
   background-position: top center;
   background-size: contain;
   z-index: 1;
-  top: -20%;
+  top: -35%;
   // right: 5%;
 }
 
 #melbourne-foreground {
-  height: 223px;
-  width: 375px;
+  height: 15rem;
+  width: 23.4375rem;
   position: absolute;
   background-image: url("melbourne-foreground-solid2x.png");
   background-size: 50% 50%;
@@ -437,38 +428,58 @@ p:last-child {
   background-position: top center;
   background-size: contain;
   z-index: 2;
-  top: 20%;
+  top: 23%;
   // left: 5%;
 }
 
 #tram {
-  height: 113px;
-  width: 150px;
+  height: 7.0625rem;
+  width: 9.375rem;
   position: absolute;
   background-image: url("tram2x.png");
-  background-size: 50% 50%;
+  background-size: 30% 30%;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
   z-index: 3;
-  top: 45%;
+  top: 58%;
   left: 18%;
 }
 
 
-// #ferris-wheel {
-//   height: 700px;
-//   width: 742px;
-//   position: absolute;
-//   background-image: url("ferris3.gif");
-//   background-size: 30% 30%;
-//   background-repeat: no-repeat;
-//   background-position: left top;
-//   position: absolute;
-//   z-index: -1;
-  // left:8%;
-  // top: 28%;
-// }
+#ferris-wheel {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  background-image: url("ferris3.gif");
+  background-size: 55% 55%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: absolute;
+  z-index: 0;
+  left:0%;
+  top: 0%;
+}
+
+.send-button {
+  color: $dark-grey;
+  font: 'Hiragino Sans', sans-serif;
+  font-weight: 500;
+  height: 1.5625rem;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+
+.field input {
+    color: $dark-grey;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.625rem;
+    border: 2px solid #999;
+    border-radius:2px;
+}
 
 // Projects
 .section_project {
@@ -477,8 +488,8 @@ p:last-child {
 }
 
 .row-below-nav {
-  padding-top: 80px;
-  padding-bottom: 15px;
+  padding-top: 5rem;
+  padding-bottom: 0.9375rem;
   vertical-align: center;
 }
 
@@ -490,26 +501,26 @@ p:last-child {
 }
 
 .project-title {
-  padding-top: 80px;
+  padding-top: 5rem;
 }
 
 .project-screen-shot {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .section-project-title {
   font-family: 'Hiragino Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   margin: 0;
-  padding-top: 60px;
+  padding-top: 3.75rem;
   padding-bottom: 0;
 }
 
 .experience-company-name {
   font-family: 'Hiragino Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   text-align: left;
   margin: 0;
@@ -520,67 +531,67 @@ p:last-child {
 
 .experience-company-position {
   font-family: 'Hiragino Sans', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: right;
   margin: 0;
   padding-top: 3px;
   padding-bottom: 0;
   padding-right: 0;
-  padding-left:20px;
+  padding-left:1.25rem;
 }
 
 .job-description {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
 }
 
 
 .red-project-title {
   color: red;
   font-family: 'Hiragino Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   text-align: left;
 }
 
 .red-about-me-icon {
   display: block;
-  height: 28px;
+  height: 1.75rem;
   // width: 20px;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   padding-left: 0;
 }
 
 .arrow-up {
-  width: 20px;
-  height: 11px;
+  width: 1.25rem;
+  height: 0.6875rem;
   background-image:url('arrow-up.svg');
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
   text-align: center;
-  margin-top: 20px;
-  padding-bottom: 30px;
+  margin-top: 1.25rem;
+  padding-bottom: 1.875rem;
 }
 
 .visit-project-site {
   text-decoration: underline;
-  padding-top: 33px;
+  padding-top: 2.0625rem;
 }
 
 .skill-section {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .skill-section:nth-child(2){
-  margin-bottom: 30px
+  margin-bottom: 1.875rem;
 }
 
 .skill-section:nth-child(6){
-  margin-bottom: 30px
+  margin-bottom: 1.875rem;
 }
 
 .skill-title {
@@ -588,16 +599,60 @@ p:last-child {
 }
 
 .dot-competence {
-  width: 10px;
-  height: 10px;
-  margin-left:5px;
-  margin-right: 5px;
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-left:0.3125rem;
+  margin-right: 0.3125rem;
 }
 
 /* Footer */
 .footer {
-  height: 45px;
+  height: 2.8125rem;
   width: 100%;
   text-align: center;
   opacity: 0.3;
+  padding-top: 0.625rem;
 }
+
+/* Responsive for iPad*/
+
+// @media screen and (min-width: 768px){
+//   .developer-drawing {
+//     width: 255px;
+//     height: 163px;
+//     background-image: url('developer2x.png');
+//     background-repeat: no-repeat;
+//     background-size: 60% 60%;
+//     background-position: right bottom;
+//     position: absolute;
+//     right: 7%;
+//     top: 26%;
+//       opacity: 0.3;
+//   }
+//
+//   .engineer-drawing {
+//     width: 267px;
+//     height: 200px;
+//     background-image: url('chemical-engineer2x.png');
+//     background-repeat: no-repeat;
+//     background-size: 80% 80%;
+//     position: absolute;
+//     left: 0%;
+//     top: 25%;
+//     opacity: 0.3;
+//   }
+//
+//   .artist-drawing {
+//     width: 267px;
+//     height: 200px;
+//     background-image: url('artist.png');
+//     background-repeat: no-repeat;
+//     background-size: 80% 80%;
+//     position: absolute;
+//     left: 38%;
+//     top: 10%;
+//     opacity: 0.3;
+//   }
+//
+//
+// }
