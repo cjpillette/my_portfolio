@@ -25,6 +25,8 @@
 
 $main-red: #F71E1E;
 $main-grey: #E0DFE9;
+$light-grey: #e1e1e1;
+$dark-grey: #979797;
 
 body {
   font-family: 'Lato', sans-serif;
@@ -161,11 +163,11 @@ p:last-child {
 }
 
 /* Hero parallax */
-.bird-box {
+.hero-box {
   position: relative;
-  height: 505px;
+  height: 550px;
   width: auto;
-  background-color: #efeff4;
+  background-color: $main-grey;
   background-attachment: fixed;
   overflow: hidden;
 
@@ -183,22 +185,27 @@ p:last-child {
 }
 
 .hero-my-name {
-  padding: 20px 0;
-  letter-spacing: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 8px;
   text-align: center;
   font-weight: 100;
   font-size: 1.4rem;
+  font-family: 'Hiragino Sans', sans-serif;
+  font-weight: 300;
 }
 
 .hero-description-title {
   font-size: 1.4rem;
   line-height: 90%;
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .line-break {
   height: 1px;
-  background-color: #e1e1e1;
+  background-color: $dark-grey;
   margin-top: 30px;
   width: 66%;
   margin: auto;
@@ -219,9 +226,9 @@ p:last-child {
   background-size: 60% 60%;
   background-position: right bottom;
   position: absolute;
-  right: 5%;
-  top: 28%;
-
+  right: 7%;
+  top: 26%;
+    opacity: 0.3;
 }
 
 .engineer-drawing {
@@ -233,14 +240,26 @@ p:last-child {
   position: absolute;
   left: 0%;
   top: 25%;
+  opacity: 0.3;
+}
 
+.artist-drawing {
+  width: 267px;
+  height: 200px;
+  background-image: url('artist.png');
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  position: absolute;
+  left: 38%;
+  top: 10%;
+  opacity: 0.3;
 }
 
 /*Portfolio parallax */
 
 .portfolio-container {
   margin: auto;
-  background-color: #e1e1e1;
+  background-color: $main-grey;
   position: relative;
   padding-bottom: 10px;
 }
@@ -275,6 +294,10 @@ p:last-child {
 .coding-project {
   width: 66%;
   margin: auto;
+}
+
+.more-about-project {
+  margin-top: 10px;
 }
 
 .project-panel {
@@ -343,10 +366,25 @@ p:last-child {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
+/* Art */
+
+.nicolas-container .p-no-margin {
+  margin-bottom: 0;
+}
+
+
 /* Contact */
+
+.contact-container {
+  margin: auto;
+  background-color: $main-grey;
+  position: relative;
+  padding-bottom: 10px;
+}
+
 .melbourne-wrapper {
   position: relative;
-  height: 480px;
+  height: 400px;
   // width: 1200px;
   overflow: hidden
 }
@@ -418,19 +456,19 @@ p:last-child {
 }
 
 
-#ferris-wheel {
-  height: 700px;
-  width: 742px;
-  position: absolute;
-  background-image: url("ferris3.gif");
-  background-size: 30% 30%;
-  background-repeat: no-repeat;
-  background-position: left top;
-  position: absolute;
-  z-index: -1;
+// #ferris-wheel {
+//   height: 700px;
+//   width: 742px;
+//   position: absolute;
+//   background-image: url("ferris3.gif");
+//   background-size: 30% 30%;
+//   background-repeat: no-repeat;
+//   background-position: left top;
+//   position: absolute;
+//   z-index: -1;
   // left:8%;
   // top: 28%;
-}
+// }
 
 // Projects
 .section_project {
@@ -465,7 +503,7 @@ p:last-child {
   font-size: 20px;
   font-weight: bold;
   margin: 0;
-  padding-top: 0;
+  padding-top: 60px;
   padding-bottom: 0;
 }
 
@@ -554,4 +592,12 @@ p:last-child {
   height: 10px;
   margin-left:5px;
   margin-right: 5px;
+}
+
+/* Footer */
+.footer {
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  opacity: 0.3;
 }
