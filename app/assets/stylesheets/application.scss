@@ -106,7 +106,7 @@ p:last-child {
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
-  left: 45%;
+  left: 48%;
   top: 95%;
 }
 
@@ -348,7 +348,7 @@ p:last-child {
   height: 18.75rem;
   width: 18.75rem;
   margin: auto;
-  background-image: url('model2.jpg');
+  background-image: url('model3.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -401,7 +401,6 @@ p:last-child {
   width: 85%;
   margin: auto;
   margin-bottom: 0.625rem;
-
 }
 
 #melbourne-background {
@@ -469,16 +468,6 @@ p:last-child {
   width: 85%;
   margin: auto;
   margin-bottom: 0;
-}
-
-
-.field input {
-    color: $dark-grey;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 0.625rem;
-    border: 2px solid #999;
-    border-radius:2px;
 }
 
 // Projects
@@ -616,43 +605,75 @@ p:last-child {
 
 /* Responsive for iPad*/
 
-// @media screen and (min-width: 768px){
-//   .developer-drawing {
-//     width: 255px;
-//     height: 163px;
-//     background-image: url('developer2x.png');
-//     background-repeat: no-repeat;
-//     background-size: 60% 60%;
-//     background-position: right bottom;
-//     position: absolute;
-//     right: 7%;
-//     top: 26%;
-//       opacity: 0.3;
-//   }
-//
-//   .engineer-drawing {
-//     width: 267px;
-//     height: 200px;
-//     background-image: url('chemical-engineer2x.png');
-//     background-repeat: no-repeat;
-//     background-size: 80% 80%;
-//     position: absolute;
-//     left: 0%;
-//     top: 25%;
-//     opacity: 0.3;
-//   }
-//
-//   .artist-drawing {
-//     width: 267px;
-//     height: 200px;
-//     background-image: url('artist.png');
-//     background-repeat: no-repeat;
-//     background-size: 80% 80%;
-//     position: absolute;
-//     left: 38%;
-//     top: 10%;
-//     opacity: 0.3;
-//   }
-//
-//
-// }
+@media screen and (min-width: 768px){
+  .developer-drawing {
+    width: 16rem;
+    height: 18rem;
+    background-size: 100% 100%;
+    right: 7%;
+    top: 26%;
+    opacity: 0.3;
+  }
+
+  .engineer-drawing {
+    width: 18rem;
+    height: 18rem;
+    background-size: 100% 100%;
+    left: 0%;
+    top: 25%;
+    opacity: 0.3;
+  }
+
+  .artist-drawing {
+    width: 16.6875rem;
+    height: 12.5rem;
+    background-size: 115% 115%;
+    left: 30%;
+    top: 10%;
+    opacity: 0.3;
+  }
+
+  .about-container {
+    width: 80%;
+  }
+
+  .nicolas-container {
+    width: 80%;
+  }
+
+  .email-box {
+    height: 2.8rem;
+    width: 50%;
+  }
+
+  .message-box {
+    height: 10rem;
+    width: 50%;
+  }
+
+  .send-button {
+    height: 2.8rem;
+    width: 50%;
+  }
+
+  .melbourne-wrapper {
+    margin-top: -50px;
+  }
+
+  .melbourne-foreground {
+    height: 28.8125rem;
+    width: 48.375rem;
+    background-image: url("melbourne-background-ipad.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .melbourne-background {
+    height: 32.125rem;
+    width: 42.8125rem;
+    background-image: url("melbourne-background-ipad.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+}

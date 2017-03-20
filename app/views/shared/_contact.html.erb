@@ -1,9 +1,13 @@
 
 <div class="contact-container">
   <h1 class="section-title small-bottom-margin">Contact</h1>
-  <input class="email-box boxed" placeholder="Email"/>
-  <input class="message-box boxed" placeholder="Enter message here..."/>
-  <button class="send-button boxed">SEND</button>
+
+  <form action="https://formspree.io/cjpillette@gmail.com"
+        method="POST">
+  <input class="email-box boxed" type="email" placeholder="Your email adress"/>
+  <input class="message-box boxed" type="text" placeholder="Enter your message here..."/>
+  <input class="send-button boxed" type="submit" value="SEND" />
+</form>
   <div class="melbourne-wrapper">
     <div id="melbourne-background"></div>
     <div id="melbourne-foreground"></div>
