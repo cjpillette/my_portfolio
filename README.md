@@ -48,12 +48,17 @@ I've selected 3 different font-family for this site.
 
 # TECHNICAL CHALLENGES
 I've opted to use Rails5 and deploy my app on heroku, for 2 reasons:
-1. To practise Rails5
+1. To practice Rails5
 2. To cater for my multiple page application. The main home page contains links that direct the user to other pages (portfolio projects, more about me...)
 
 
 * Create a form using formspree.io
-* Create a carousel
+* Added robots.txt and sitemap.xml in Ruby using documentation and SitemapGenerator gem
 * Make the site responsive for large, medium and small devices, which different configurations for each - and not just one being proportionally smaller or larger than the others
-* Creating a set of routes to direct user to numerous pages
+* Creating a set of routes to direct user to numerous pages in rails
 * Using parallax in the hero banner and the footer to engage the viewer to 'enter' the site and to 'come' and contact me when reaching the end of the webpage.
+
+# FUTURE IMPROVEMENT
+* Verify cross-browser compatibility (Safari, IE, Mozilla, Google)
+* Make a carousel with my cartoons
+* Using parallax at the bottom of my site to animate tram, foreground, background.

@@ -378,27 +378,31 @@ p:last-child {
   margin: auto;
   background-color: $main-grey;
   position: relative;
+  display: block;
+
+  // margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .melbourne-wrapper {
   position: relative;
-  height: 18rem;
+  height: 288px;
   // width: 1200px;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 .email-box {
-  height: 1.875rem;
-  width: 85%;
+  height: 28px;
+  width: 295px;
   margin: auto;
   margin-bottom: 0.625rem;
 }
 
 .message-box {
-  height: 6.25rem;
+  height: 105px;
   text-align: top;
   overflow: auto;
-  width: 85%;
+  width: 295px;
   margin: auto;
   margin-bottom: 0.625rem;
 }
@@ -464,8 +468,8 @@ p:last-child {
   color: $dark-grey;
   font: 'Hiragino Sans', sans-serif;
   font-weight: 500;
-  height: 1.5625rem;
-  width: 85%;
+  height: 23px;
+  width: 295px;
   margin: auto;
   margin-bottom: 0;
 }
@@ -601,35 +605,36 @@ p:last-child {
   text-align: center;
   opacity: 0.3;
   padding-top: 0.625rem;
+  display: block;
 }
 
 /* Responsive for iPad*/
 
 @media screen and (min-width: 768px){
   .developer-drawing {
-    width: 16rem;
-    height: 18rem;
-    background-size: 100% 100%;
-    right: 7%;
-    top: 26%;
-    opacity: 0.3;
+    width: 370px;
+    height: 236px;
+    background-size: 90% 90%;
+    right: 5%;
+    top: 45%;
+    opacity: 0.2;
   }
 
   .engineer-drawing {
-    width: 18rem;
-    height: 18rem;
-    background-size: 100% 100%;
-    left: 0%;
+    width: 400px;
+    height: 300px;
+    background-size: 90% 90%;
+    left: -5%;
     top: 25%;
     opacity: 0.3;
   }
 
   .artist-drawing {
-    width: 16.6875rem;
-    height: 12.5rem;
-    background-size: 115% 115%;
-    left: 30%;
-    top: 10%;
+    width: 400px;
+    height: 300px;
+    background-size: 100% 100%;
+    left: 27%;
+    top: 4%;
     opacity: 0.3;
   }
 
@@ -657,23 +662,54 @@ p:last-child {
   }
 
   .melbourne-wrapper {
-    margin-top: -50px;
+    margin-top: -100px;
+    display: block;
+    overflow: visible;
+    height: 350px;
   }
 
-  .melbourne-foreground {
-    height: 28.8125rem;
-    width: 48.375rem;
-    background-image: url("melbourne-background-ipad.png");
+  #melbourne-foreground {
+    height: 461px;
+    width: 774px;
+    background-image: url("melbourne-foreground-solid2x.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: -150px;
+    // top: -40%;
   }
 
-  .melbourne-background {
-    height: 32.125rem;
-    width: 42.8125rem;
-    background-image: url("melbourne-background-ipad.png");
+  #melbourne-background {
+    height: 514px;
+    width: 685px;
+    background-image: url("Melbourne-skyline2x.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    // top:-40%;
+    margin-top: -200px;
+  }
+
+  #tram {
+    height: 150px;;
+    width: 200px;
+    background-image: url("tram2x.png");
+    background-size: 100% 100%;
+    margin-left:50px;
+  }
+
+  #ferris-wheel {
+    top: -10%;
+  }
+
+  form {
+    position: absolute;
+    left:10%;
+    z-index: 10;
+    margin-top: -250px;
+    width: 80%;
+  }
+
+  .contact-title {
+    margin-bottom: 250px;
   }
 
 }
