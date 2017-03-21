@@ -743,12 +743,10 @@ p:last-child {
     height: 80px;
     position: relative;
     margin-bottom: 50px;
-    // height: 80px;
   }
 
   .node-icon-med{
   width: 50%;
-
   }
 
   .ruby-icon-med{
@@ -815,12 +813,62 @@ p:last-child {
     height: 2rem;
   }
 
-  .large-window {
+  .hide-middle-arrow-in-desktop {
     display: none;
   }
 
-  .about-description {
-    width: 50%;
-    float: left;
+  .about-container {
+    margin-left:0px;
+    margin-right:0px;
+    padding-bottom:0px;
+    width: 100%;
   }
+
+  .about-in-desktop {
+    display: flex;
+  }
+
+  .left-column-in-desktop {
+    width: 50%;
+  }
+
+  .right-column-in-desktop {
+    width: 50%;
+  }
+
+  .large-window {
+    height: 800px;
+    width: auto;
+    margin: 0;
+    background-image: url('model4.jpg');
+    background-repeat: no-repeat;
+    border-radius: 0;
+    background-position: contain;
+    background-attachment: scroll;
+  }
+
+  .about-description-margin-top {
+    margin-top: 30%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .about-arrow-down-in-desktop {
+    width: 2.375rem;
+    height: 1.875rem;
+    // position: absolute;
+    background-image:url('arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    left: 48%;
+    top: 95%;
+  }
+
+  .learn-more-button {
+    margin-top: 20px;
+    margin-bottom: 220px;
+  }
+
+
 }
