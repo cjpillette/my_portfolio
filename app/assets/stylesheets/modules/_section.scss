@@ -1,0 +1,57 @@
+.section {
+  text-align: center;
+  margin: auto;
+}
+
+.section-title {
+  margin: 0 0 1.5625rem 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.small-bottom-margin {
+  margin: 0;
+}
+
+.about-description p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 1.875rem;
+  text-align: justify;
+}
+
+p:last-child {
+  margin-bottom: 2.5rem;
+}
+
+.arrow-down {
+  width: 2.375rem;
+  height: 1.875rem;
+  position: absolute;
+  background-image:url('arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  left: 48%;
+  top: 95%;
+}
+
+.arrow-up {
+  width: 1.25rem;
+  height: 0.6875rem;
+  background-image:url('arrow-up.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.25rem;
+  padding-bottom: 1.875rem;
+}
+
+.line-break {
+  height: 1px;
+  background-color: $dark-grey;
+  margin-top: 1.875rem;
+  width: 66%;
+  margin: auto;
+}

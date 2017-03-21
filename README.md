@@ -52,13 +52,16 @@ I've opted to use Rails5 and deploy my app on heroku, for 2 reasons:
 2. To cater for my multiple page application. The main home page contains links that direct the user to other pages (portfolio projects, more about me...)
 
 
-* Create a form using formspree.io
+* Created a form using formspree.io
 * Added robots.txt and sitemap.xml in Ruby using documentation and SitemapGenerator gem
 * Make the site responsive for large, medium and small devices, which different configurations for each - and not just one being proportionally smaller or larger than the others
-* Creating a set of routes to direct user to numerous pages in rails
-* Using parallax in the hero banner and the footer to engage the viewer to 'enter' the site and to 'come' and contact me when reaching the end of the webpage.
+* Used flex box to cater for configuration changes between iPad and desktop formats.
+* Created a set of routes to direct user to numerous pages in rails
+* Used parallax in the hero banner and the footer to engage the viewer to 'enter' the site and to 'come' and contact me when reaching the end of the webpage.
+* Made a carousel with my drawings
+* Deployed on heroku and changed app name
 
 # FUTURE IMPROVEMENT
 * Verify cross-browser compatibility (Safari, IE, Mozilla, Google)
-* Make a carousel with my cartoons
-* Using parallax at the bottom of my site to animate tram, foreground, background.
+* Organise main sass files into multiple sass files and import them in the main sass file.
+* Use parallax at the bottom of my site to animate tram, foreground, background.

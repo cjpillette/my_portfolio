@@ -1,0 +1,80 @@
+.hero-box {
+  position: relative;
+  height: 34.375rem;
+  width: auto;
+  background-color: $main-grey;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.hero-description {
+  width: auto;
+  margin: auto;
+  position: relative;
+  display: block;
+  top: 65%;
+  margin-top: -3.125rem;
+  overflow: hidden;
+}
+
+.hero-my-name {
+  padding-top: 0.625rem;
+  padding-bottom: 1.25rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.4rem;
+  font-family: 'Hiragino Sans', sans-serif;
+  font-weight: 300;
+}
+
+.hero-description-title {
+  font-size: 1.4rem;
+  line-height: 90%;
+  text-align: center;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+
+.hero-description-icons{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.developer-drawing {
+  width: 14.0625rem;
+  height: 10.1875rem;
+  background-image: url('developer2x.png');
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  background-position: right bottom;
+  position: absolute;
+  right: 7%;
+  top: 26%;
+  opacity: 0.3;
+}
+
+.engineer-drawing {
+  width: 16.6875rem;
+  height: 12.5rem;
+  background-image: url('chemical-engineer2x.png');
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  opacity: 0.3;
+}
+
+.artist-drawing {
+  width: 16.6875rem;
+  height: 12.5rem;
+  background-image: url('artist.png');
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  position: absolute;
+  left: 38%;
+  top: 10%;
+  opacity: 0.3;
+}

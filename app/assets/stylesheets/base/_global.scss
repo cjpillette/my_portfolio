@@ -1,0 +1,40 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+img {
+  max-width: 100%;
+}
+
+a  {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $main-red;
+}
+
+.boxed {
+  border: 1px solid grey;
+  background-color: white;
+}

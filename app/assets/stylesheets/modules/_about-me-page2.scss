@@ -1,0 +1,60 @@
+.experience-company-name {
+  font-family: 'Hiragino Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right:0;
+}
+
+.experience-company-position {
+  font-family: 'Hiragino Sans', sans-serif;
+  font-size: 0.875rem;
+  text-align: right;
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left:1.25rem;
+}
+
+.job-description {
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.red-project-title {
+  color: red;
+  font-family: 'Hiragino Sans', sans-serif;
+  font-size: 1.25rem;
+  margin: 0;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  text-align: left;
+}
+
+.skill-section {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.skill-section:nth-child(2){
+  margin-bottom: 1.875rem;
+}
+
+.skill-section:nth-child(6){
+  margin-bottom: 1.875rem;
+}
+
+.skill-title {
+  text-align: left;
+}
+
+.dot-competence {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-left:0.3125rem;
+  margin-right: 0.3125rem;
+}

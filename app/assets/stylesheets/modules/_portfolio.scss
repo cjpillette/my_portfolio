@@ -1,0 +1,38 @@
+.portfolio-container {
+  margin: auto;
+  background-color: $main-grey;
+  position: relative;
+  padding-bottom: 0.625rem;
+}
+
+.project-row {
+  margin: auto;
+  display: block;
+  margin-bottom: 3.125rem;
+}
+
+.coding-project {
+  width: 66%;
+  margin: auto;
+}
+
+.more-about-project {
+  margin-top: 0.625rem;
+}
+
+.project-panel {
+  margin-bottom: 3.125rem;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-1.25rem);
+  transition: all 0.3s ease-in-out;
+
+  &.is-showing {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.coding-project:last-child {
+  margin-bottom: 3.125rem;
+}

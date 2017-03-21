@@ -1,0 +1,69 @@
+.icon {
+  padding: 0.625rem 0.625rem;
+  height: 1.5625rem;
+}
+
+.nav-icon {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0;
+  height: 1.5625rem;
+}
+
+.icon-left {
+  float: left;
+}
+
+.icon-right {
+  float: right;
+}
+
+.icon-center {
+  margin: auto;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+}
+
+.icon-large {
+  max-width: 6.25rem;
+}
+
+.icon-hero {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.625rem;
+}
+
+.node-icon {
+  width: 33%;
+  height: 3.125rem;
+  background-image: url('Node.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 5%;
+}
+
+.ruby-icon {
+  width: 33%;
+  height: 2.5rem;
+  background-image: url('Ruby-red.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 5%;
+}
+
+.red-about-me-icon {
+  display: block;
+  height: 1.75rem;
+  margin-top: 0.3125rem;
+  padding-left: 0;
+}
+
+.row_of_icon{
+  display: none;
+}

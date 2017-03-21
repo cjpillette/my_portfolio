@@ -1,0 +1,32 @@
+.about-container {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 3.125rem;
+}
+
+.about-description {
+  width: 90%;
+  margin: auto;
+}
+
+.large-window {
+  height: 18.75rem;
+  width: 18.75rem;
+  margin: auto;
+  background-image: url('model3.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 50%;
+}
+
+.learn-more-button {
+  background-color: $main-red;
+  padding: 0.625rem 3.125rem;
+  color: white;
+  border: 0;
+  margin-top: 1.875rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.0625rem 0.125rem 0.25rem rgba(0, 0, 0, .5);
+}

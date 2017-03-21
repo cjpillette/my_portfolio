@@ -1,0 +1,97 @@
+.contact-container {
+  margin: auto;
+  background-color: $main-grey;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.melbourne-wrapper {
+  position: relative;
+  height: 288px;
+  // width: 1200px;
+  // overflow: hidden;
+}
+
+.email-box {
+  height: 28px;
+  width: 295px;
+  margin: auto;
+  margin-bottom: 0.625rem;
+}
+
+.message-box {
+  height: 105px;
+  text-align: top;
+  overflow: auto;
+  width: 295px;
+  margin: auto;
+  margin-bottom: 0.625rem;
+}
+
+#melbourne-background {
+  position: absolute;
+  height: 19rem;
+  width: 23.4375rem;
+  background-image: url("Melbourne-skyline2x.png");
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: top center;
+  background-size: contain;
+  z-index: 1;
+  top: -35%;
+  // right: 5%;
+}
+
+#melbourne-foreground {
+  height: 15rem;
+  width: 23.4375rem;
+  position: absolute;
+  background-image: url("melbourne-foreground-solid2x.png");
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  z-index: 2;
+  top: 23%;
+  // left: 5%;
+}
+
+#tram {
+  height: 7.0625rem;
+  width: 9.375rem;
+  position: absolute;
+  background-image: url("tram2x.png");
+  background-size: 30% 30%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  z-index: 3;
+  top: 58%;
+  left: 18%;
+}
+
+
+#ferris-wheel {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  background-image: url("ferris3.gif");
+  background-size: 55% 55%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: absolute;
+  z-index: 0;
+  left:0%;
+  top: 0%;
+}
+
+.send-button {
+  color: $dark-grey;
+  font: 'Hiragino Sans', sans-serif;
+  font-weight: 500;
+  height: 23px;
+  width: 295px;
+  margin: auto;
+  margin-bottom: 0;
+}
