@@ -1,10 +1,53 @@
 <div class="nicolas-container">
-    <h1 class="section-title">ART</h1>
-  <div class="about-description">
-    <p class="p-no-margin">&nbsp;I’m documenting my journey of becoming a developer here in Melbourne with my fellow classmates. My daily <a href="http://carolecodes.blogspot.com.au/"><span style="color:#F71E1E">vlogs</span></a> come with a cartoon depicting the key event 'du jour'!</p>
+    <div class="nicolas-in-desktop">
+      <div class="right-column-in-desktop">
+        <h1 class="section-title">ART</h1>
+        <div class="about-description nicolas-description-special-margin">
+          <p class="p-no-margin">&nbsp;I’m documenting my journey of becoming a developer here in Melbourne with my fellow classmates. My daily <a href="http://carolecodes.blogspot.com.au/"><span style="color:#F71E1E">vlogs</span></a> come with a cartoon depicting the key event 'du jour'!</p>
+          <div class="nicolas-arrow-down-in-desktop"></div>
+      </div>
+    </div>
+
+    <%= image_tag("class-photo.jpg", :alt => "cartoon class photo", :class => "project-screen-shot no-static-cartoon-in-desktop") %>
+
+     <div class="left-column-in-desktop">
+      <div class="carousel-in-desktop">
+        <div id="carouselCartoons" class="carousel" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <%= image_tag("class-photo.jpg", :alt => "class photo cartoon", :class => "d-block img-fluid") %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag("boysband.jpg", :alt => "trendy boys walking down the street cartoon", :class => "d-block img-fluid") %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag("perilous.jpg", :alt => "people hanging on for their life on a rope cartoon", :class => "d-block img-fluid") %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag("pirate.jpg", :alt => "pirate stealing info in hotel room cartoon", :class => "d-block img-fluid") %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag("trump.jpg", :alt => "kid crying in front of Donald Trump cartoon", :class => "d-block img-fluid") %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag("zoro-pizza.jpg", :alt => "boy eating pizza and passing zoro cartoon", :class => "d-block img-fluid") %>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselCartoons" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselCartoons" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hide-middle-arrow-in-desktop">
+      <div class="arrow-down"></div>
+    </div>
+
   </div>
-
-  <%= image_tag("class-photo.jpg", :alt => "cartoon class photo", :class => "project-screen-shot") %>
-
-<div class="arrow-down"></div>
 </div>
