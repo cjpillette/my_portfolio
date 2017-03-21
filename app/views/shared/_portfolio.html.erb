@@ -1,46 +1,59 @@
 <div class="portfolio-container">
   <h1 class="section-title">Portfolio</h1>
 
-  <div class="project-row">
-    <div class="node-icon"></div>
-    <div class="coding-project">
-      <h3>Travel site</h3>
-      <div class="line-break"></div>
-      <h4 class="more-about-project"><%= link_to "Project history", pages_travel_project_path %> / <a href="https://cjpillette.github.io/travel-site/" class="red">Visit site</a></h4>
+  <div class="row_of_icon">
+      <%= image_tag("Node.svg", :alt => "nodeJS", :class => "node-icon-med") %>
+      <%= image_tag("Ruby-red.svg", :alt => "ruby on rails", :class => "ruby-icon-med") %>
+  </div>
+
+<div class="technology-wrapper">
+  <div class="node-wrapper">
+      <div class="project-row">
+        <div class="node-icon"></div>
+        <div class="coding-project">
+          <h3>Travel site</h3>
+          <div class="line-break"></div>
+          <h4 class="more-about-project"><%= link_to "Project history", pages_travel_project_path %> / <a href="https://cjpillette.github.io/travel-site/" class="red">Visit site</a></h4>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="coding-project">
+          <h3>CFA Woman scholarship</h3>
+          <div class="line-break"></div>
+          <h4 class="more-about-project"><%= link_to "Project history", pages_cfa_scholarship_project_path %> / <a href="https://cjpillette.github.io/CFApplication2/" class="red">Visit site</a></h4>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="coding-project">
+          <h3>Chat room</h3>
+          <div class="line-break"></div>
+          <h4 class="more-about-project"><%= link_to "Project history", pages_chat_room_project_path %> / <a href="https://dry-basin-71739.herokuapp.com/" class="red">Visit site</a></h4>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="coding-project">
+          <h3>Quarantine Track</h3>
+          <div class="line-break"></div>
+          <h4 class="more-about-project"><%= link_to "Project history", pages_quarantine_project_path %> / <a href="https://ancient-headland-44606.herokuapp.com/" class="red">Visit site</a></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="ror-wrapper">
+      <div class="project-row">
+        <div class="ruby-icon"></div>
+        <div class="coding-project">
+          <h3>Teeth, blood and all!</h3>
+          <div class="line-break"></div>
+          <h4 class="more-about-project"><%= link_to "Project history", pages_pure_ruby_project_path %> / <%= link_to "See CLI", pages_ruby_cli_display_path %></h4>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="project-row">
-    <div class="coding-project">
-      <h3>CFA Woman scholarship</h3>
-      <div class="line-break"></div>
-      <h4 class="more-about-project"><%= link_to "Project history", pages_cfa_scholarship_project_path %> / <a href="https://cjpillette.github.io/CFApplication2/" class="red">Visit site</a></h4>
-    </div>
-  </div>
-
-  <div class="project-row">
-    <div class="coding-project">
-      <h3>Chat room</h3>
-      <div class="line-break"></div>
-      <h4 class="more-about-project"><%= link_to "Project history", pages_chat_room_project_path %> / <a href="https://dry-basin-71739.herokuapp.com/" class="red">Visit site</a></h4>
-    </div>
-  </div>
-
-  <div class="project-row">
-    <div class="coding-project">
-      <h3>Quarantine Track</h3>
-      <div class="line-break"></div>
-      <h4 class="more-about-project"><%= link_to "Project history", pages_quarantine_project_path %> / <a href="https://ancient-headland-44606.herokuapp.com/" class="red">Visit site</a></h4>
-    </div>
-  </div>
-
-  <div class="project-row">
-    <div class="ruby-icon"></div>
-    <div class="coding-project">
-      <h3>Track your health</h3>
-      <div class="line-break"></div>
-      <h4 class="more-about-project"><%= link_to "Project history", pages_pure_ruby_project_path %> / <%= link_to "See CLI", pages_ruby_cli_display_path %></h4>
-    </div>
-  </div>
+  <div class="arrow-down"></div>
 
 </div>

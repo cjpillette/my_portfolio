@@ -257,6 +257,10 @@ p:last-child {
 
 /*Portfolio parallax */
 
+.row_of_icon{
+  display: none;
+}
+
 .portfolio-container {
   margin: auto;
   background-color: $main-grey;
@@ -714,6 +718,43 @@ p:last-child {
 
   .project-container {
     width: 80%;
+  }
+
+  .technology-wrapper {
+    display: flex;
+  }
+
+  .node-wrapper {
+    width: 50%;
+  }
+
+  .ror-wrapper {
+    width: 50%;
+  }
+
+  .ruby-icon {
+    display: none;
+  }
+
+  .node-icon {
+    display: none;
+  }
+
+  .row_of_icon{
+    display: flex;
+    height: 80px;
+    position: relative;
+    margin-bottom: 50px;
+    // height: 80px;
+  }
+
+  .node-icon-med{
+  width: 50%;
+
+  }
+
+  .ruby-icon-med{
+    width: 50%;
   }
 
 }
