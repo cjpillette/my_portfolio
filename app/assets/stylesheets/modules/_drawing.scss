@@ -1,3 +1,7 @@
+@import "base/_variables";
+@import "base/_responsive";
+@import "base/_global";
+
 .nicolas-container {
   width: 90%;
   margin: auto;
@@ -11,4 +15,8 @@
 
 .nicolas-container .p-no-margin {
   margin-bottom: 0;
+}
+
+.carousel-in-desktop {
+  display: none;
 }

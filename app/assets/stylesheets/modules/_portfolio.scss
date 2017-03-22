@@ -1,3 +1,7 @@
+@import "base/_variables";
+@import "base/_responsive";
+@import "base/_global";
+
 .portfolio-container {
   margin: auto;
   background-color: $main-grey;

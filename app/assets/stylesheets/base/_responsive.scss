@@ -1,3 +1,7 @@
+
+@import "base/_variables";
+@import "base/_global";
+
 /* Responsive for iPad*/
 
 @media screen and (min-width: 768px){
@@ -32,6 +36,10 @@
     width: 80%;
   }
 
+  .learn-more-button {
+    margin-bottom: 40px;
+  }
+
   .nicolas-container {
     width: 80%;
   }
@@ -58,9 +66,13 @@
     height: 350px;
   }
 
+  .contact-title {
+    margin-bottom: 400px;
+  }
+
   #melbourne-foreground {
-    height: 461px;
-    width: 774px;
+    height: 550px;
+    width: 100%;
     background-image: url("melbourne-foreground-solid2x.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -68,8 +80,8 @@
   }
 
   #melbourne-background {
-    height: 514px;
-    width: 685px;
+    height: 550px;
+    width: 100%;
     background-image: url("Melbourne-skyline2x.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -81,7 +93,7 @@
     width: 200px;
     background-image: url("tram2x.png");
     background-size: 100% 100%;
-    margin-left:50px;
+    margin-left:70px;
   }
 
   #ferris-wheel {
@@ -92,13 +104,10 @@
     position: absolute;
     left:10%;
     z-index: 10;
-    margin-top: -250px;
+    top: 20%;
     width: 80%;
   }
 
-  .contact-title {
-    margin-bottom: 250px;
-  }
 
   .project-container {
     width: 80%;
@@ -254,6 +263,10 @@
     margin-bottom: 220px;
   }
 
+  .carousel-in-desktop {
+    display: visible;
+  }
+
   .no-static-cartoon-in-desktop {
     display: none;
   }
@@ -287,6 +300,10 @@
     margin-right: 0px;
     padding-bottom: 0px;
     width: 100%;
+  }
+
+  .contact-title {
+    margin-bottom: 300px;
   }
 
 

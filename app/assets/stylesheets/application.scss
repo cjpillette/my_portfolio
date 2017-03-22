@@ -11,8 +11,8 @@
  * It is generally better to create a new file per style scope.
  *
  *
- *= require_tree .
- *= require_self
+ * = require_tree .
+ * = require_self
  */
 
  /*"bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
@@ -24,16 +24,17 @@
 }
 
 @import "base/_variables";
-@import "base/_mixins";
 @import "base/_global";
-@import "modules/_about-me-page2.scss";
-@import "modules/_about.scss";
-@import "modules/_contact.scss";
-@import "modules/_drawing.scss";
-@import "modules/_footer.scss";
-@import "modules/_hero.scss";
-@import "modules/_icon.scss";
-@import "modules/_navigation.scss";
-@import "modules/_portfolio.scss";
-@import "modules/_project-page.scss";
-@import "modules/_section.scss";
+@import "modules/_about-me-page2";
+@import "modules/_about";
+@import "modules/_contact";
+@import "modules/_drawing";
+@import "modules/_footer";
+@import "modules/_hero";
+@import "modules/_icon";
+@import "modules/_navigation";
+@import "modules/_portfolio";
+@import "modules/_project-page";
+@import "modules/_section";
+
+@import "base/_responsive";

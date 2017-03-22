@@ -1,3 +1,7 @@
+@import "base/_variables";
+@import "base/_responsive";
+@import "base/_global";
+
 .navigation {
   position: fixed;
   z-index: 10;

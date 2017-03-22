@@ -59,9 +59,11 @@ I've opted to use Rails5 and deploy my app on heroku, for 2 reasons:
 * Created a set of routes to direct user to numerous pages in rails
 * Used parallax in the hero banner and the footer to engage the viewer to 'enter' the site and to 'come' and contact me when reaching the end of the webpage.
 * Made a carousel with my drawings
+* Organized main sass files into multiple sass files and imported them into the main sass file.
 * Deployed on heroku and changed app name
 
 # FUTURE IMPROVEMENT
 * Verify cross-browser compatibility (Safari, IE, Mozilla, Google)
-* Organise main sass files into multiple sass files and import them in the main sass file.
+* Use lazyload to optimize loading speed of the website
+* Use sprite to bundle all svgs into one file to optimize loading speed of the website
 * Use parallax at the bottom of my site to animate tram, foreground, background.

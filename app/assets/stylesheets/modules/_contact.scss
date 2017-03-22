@@ -1,3 +1,7 @@
+@import "base/_variables";
+@import "base/_responsive";
+@import "base/_global";
+
 .contact-container {
   margin: auto;
   background-color: $main-grey;
@@ -9,8 +13,6 @@
 .melbourne-wrapper {
   position: relative;
   height: 288px;
-  // width: 1200px;
-  // overflow: hidden;
 }
 
 .email-box {
@@ -32,29 +34,27 @@
 #melbourne-background {
   position: absolute;
   height: 19rem;
-  width: 23.4375rem;
+  width: 100%;
   background-image: url("Melbourne-skyline2x.png");
   background-repeat: no-repeat;
-  background-size: 50% 50%;
+  background-size: 100% 100%;
   background-position: top center;
   background-size: contain;
   z-index: 1;
   top: -35%;
-  // right: 5%;
 }
 
 #melbourne-foreground {
   height: 15rem;
-  width: 23.4375rem;
+  width: 100%;
   position: absolute;
   background-image: url("melbourne-foreground-solid2x.png");
-  background-size: 50% 50%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
   z-index: 2;
   top: 23%;
-  // left: 5%;
 }
 
 #tram {
@@ -70,7 +70,6 @@
   top: 58%;
   left: 18%;
 }
-
 
 #ferris-wheel {
   height: 20rem;
