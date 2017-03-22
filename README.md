@@ -66,4 +66,5 @@ I've opted to use Rails5 and deploy my app on heroku, for 2 reasons:
 * Verify cross-browser compatibility (Safari, IE, Mozilla, Google)
 * Use lazyload to optimize loading speed of the website
 * Use sprite to bundle all svgs into one file to optimize loading speed of the website
-* Use parallax at the bottom of my site to animate tram, foreground, background.
+* Use parallax at the bottom of my site to animate tram, foreground, background
+* Improve SEO for increasing chances to be found on the net
