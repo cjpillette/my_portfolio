@@ -44,11 +44,12 @@ $(window).scroll(function(){
 
 //hero
   $('.hero-description').css({
-    'transform': 'translate(0px, -'+ wScroll /20 +'% )'
+    'transform': 'translate(0px, -'+ wScroll /20 +'% )',
+    'opacity': 30/ (wScroll + 1) - 0.1,
   });
 
   $('.artist-drawing').css({
-    'transform': 'translate(0px, -'+ wScroll /70 +'% )',
+    'transform': 'translate(0px, '+ wScroll /50 +'% )',
     'opacity': (wScroll /200)
   });
 
@@ -56,13 +57,13 @@ $(window).scroll(function(){
   $('.engineer-drawing').css({
     'transform': 'translate(0px, -'+ wScroll /40 +'% )',
     'opacity': (wScroll /200),
-    'transform': 'scale(1.'+ wScroll / 50 +')'
+    'transform': 'scale(1.'+ wScroll / 100 +')'
   });
 
   $('.developer-drawing').css({
     'transform': 'translate(0px, -'+ wScroll /22 +'% )',
     'opacity': (wScroll /200),
-    'transform': 'scale(1.'+ wScroll / 50 +')'
+    'transform': 'scale(1.'+ wScroll / 100 +')'
   });
 
 

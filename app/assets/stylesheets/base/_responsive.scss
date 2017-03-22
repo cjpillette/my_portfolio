@@ -19,7 +19,7 @@
     height: 300px;
     background-size: 90% 90%;
     left: -5%;
-    top: 25%;
+    top: 45%;
     opacity: 0;
   }
 
@@ -28,7 +28,7 @@
     height: 300px;
     background-size: 100% 100%;
     left: 27%;
-    top: 4%;
+    top: 30%;
     opacity: 0;
   }
 
@@ -153,6 +153,15 @@
 /* Responsive for Desktop*/
 @media screen and (min-width: 1440px){
 
+
+// h3 {
+//   font-size: 45px;
+// }
+//
+// h4 {
+//   font-size: 25px;
+// }
+
   .navigation {
     height: 5rem;
   }
@@ -228,7 +237,6 @@
     width: 100%;
     height: 900px;
     background-size: 60% 60%;
-
     top: 20%;
   }
 
@@ -253,6 +261,10 @@
     margin-right:0px;
     padding-bottom:0px;
     width: 100%;
+  }
+
+  .paragraph-in-desktop {
+    padding-bottom: 100px;
   }
 
   .about-in-desktop {
@@ -284,6 +296,11 @@
     padding-left: 30px;
   }
 
+  .section-title {
+    font-size: 3rem;
+  }
+
+
   .about-arrow-down-in-desktop {
     width: 2.375rem;
     height: 1.875rem;
@@ -292,7 +309,7 @@
     background-position: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 270px;
+    margin-top: 150px;
     left: 48%;
     top: 95%;
   }
@@ -382,6 +399,51 @@
     height: 1.25rem;
     margin-left:0.625rem;
     margin-right: 0.625rem;
+  }
+
+  .melbourne-wrapper {
+    margin-top: -100px;
+    display: block;
+    overflow: visible;
+    height: 1031px;
+  }
+
+  #melbourne-foreground {
+    height: 1031px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: -150px;
+  }
+
+  #melbourne-background {
+    height: 1031px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: -200px;
+  }
+
+  #tram {
+    height: 300px;;
+    width: 400px;
+    background-image: url("tram2x.png");
+    background-size: 100% 100%;
+    margin-left:200px;
+    margin-top: 80px;
+  }
+
+  #ferris-wheel {
+    height: 640px;
+    width: 640px;
+    background-size: 55% 55%;
+    background-position: left top;
+    left:5%;
+    top: -5%;
+  }
+
+  form {
+    max-width: 700px;
+    left: 50%;
+    top: 45%;
   }
 
 

@@ -55,8 +55,9 @@
   background-position: right bottom;
   position: absolute;
   right: 7%;
-  top: 26%;
+  top: 56%;
   opacity: 0;
+  transition: all 0.3s linear;
 }
 
 .engineer-drawing {
@@ -67,8 +68,9 @@
   background-size: 80% 80%;
   position: absolute;
   left: 0%;
-  top: 25%;
+  top: 55%;
   opacity: 0;
+  transition: all 0.3s linear;
 }
 
 .artist-drawing {
@@ -79,6 +81,7 @@
   background-size: 80% 80%;
   position: absolute;
   left: 38%;
-  top: 15%;
+  top: 45%;
   opacity: 0;
+  transition: all 0.3s linear;
 }
