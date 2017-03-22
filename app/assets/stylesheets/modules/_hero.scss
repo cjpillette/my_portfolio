@@ -4,7 +4,7 @@
 
 .hero-box {
   position: relative;
-  height: 34.375rem;
+  height: 600px;
   width: auto;
   background-color: $main-grey;
   background-attachment: fixed;
@@ -56,7 +56,7 @@
   position: absolute;
   right: 7%;
   top: 26%;
-  opacity: 0.3;
+  opacity: 0;
 }
 
 .engineer-drawing {
@@ -68,7 +68,7 @@
   position: absolute;
   left: 0%;
   top: 25%;
-  opacity: 0.3;
+  opacity: 0;
 }
 
 .artist-drawing {
@@ -79,6 +79,6 @@
   background-size: 80% 80%;
   position: absolute;
   left: 38%;
-  top: 10%;
-  opacity: 0.3;
+  top: 15%;
+  opacity: 0;
 }

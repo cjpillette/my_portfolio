@@ -47,12 +47,22 @@ $(window).scroll(function(){
     'transform': 'translate(0px, -'+ wScroll /20 +'% )'
   });
 
+  $('.artist-drawing').css({
+    'transform': 'translate(0px, -'+ wScroll /70 +'% )',
+    'opacity': (wScroll /200)
+  });
+
+
   $('.engineer-drawing').css({
-    'transform': 'translate(0px, -'+ wScroll /40 +'% )'
+    'transform': 'translate(0px, -'+ wScroll /40 +'% )',
+    'opacity': (wScroll /200),
+    'transform': 'scale(1.'+ wScroll / 50 +')'
   });
 
   $('.developer-drawing').css({
-    'transform': 'translate(0px, -'+ wScroll /11 +'% )'
+    'transform': 'translate(0px, -'+ wScroll /22 +'% )',
+    'opacity': (wScroll /200),
+    'transform': 'scale(1.'+ wScroll / 50 +')'
   });
 
 
