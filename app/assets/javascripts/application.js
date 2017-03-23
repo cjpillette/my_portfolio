@@ -72,7 +72,7 @@ $(window).scroll(function(){
     $('.icon-cartable').removeClass("cartable-red");
   }
 
-  if (wScroll_normalised > hero + about && wScroll <= hero + about + portfolio) {
+  if (wScroll_normalised + 2 > hero + about && wScroll <= hero + about + portfolio) {
     $('.icon-a-mon-sujet').removeClass("a-mon-sujet-red");
     $('.icon-cartable').addClass("cartable-red");
     $('.icon-petit-nicolas').removeClass("petit-nicolas-red");

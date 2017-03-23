@@ -60,6 +60,8 @@ I've opted to use Rails5 and deploy my app on heroku, for 2 reasons:
 * Used parallax in the hero banner and the footer to engage the viewer to 'enter' the site and to 'come' and contact me when reaching the end of the webpage.
 * Made a carousel with my drawings
 * Organized main sass files into multiple sass files and imported them into the main sass file.
+* Used js to smooth scroll between sections
+* Used js to render red icon in navbar when section is matched to active icon
 * Deployed on heroku and changed app name
 
 # FUTURE IMPROVEMENT
