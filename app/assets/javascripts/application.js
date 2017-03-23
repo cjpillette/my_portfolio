@@ -24,6 +24,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     var id = $(this).attr('href');
     var nav = $('#navigation').height();
 
+
     // target element
     var $id = $(id);
     if ($id.length === 0) {
@@ -38,22 +39,28 @@ $(document).on('click', 'a[href^="#"]', function(e) {
 
     // animated top scrolling
     $('body, html').animate({scrollTop: pos});
+
 });
 
 //scroll to the top of the page
 $(document).scroll(function(){
-
       $(".arrow-up").on("click", function() {
         $("body").scrollTop(0)
       });
-
     });
 
 
 //parallax effects
 $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
-  console.log(wScroll);
+  var nav = $('#navigation').height();
+  var hero = $('#hero-box').height();
+  var about = $('#about-me').height();
+  var portfolio = $('#my-portfolio').height();
+  var art = $('#my-art').height();
+  var contact = $('#contact-me').height();
+  var wScroll_normalised = wScroll + nav;
+  
 
 //hero
   $('.hero-description').css({

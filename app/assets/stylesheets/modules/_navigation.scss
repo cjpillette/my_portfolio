@@ -9,3 +9,63 @@
   height: 2.8125rem;
   background-color: white;
 }
+
+.icon-maison {
+  height: 30px;
+  width: 30px;
+  background-image:url('cpHome.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.icon-contacter-moi {
+  height: 40px;
+  width: 40px;
+  background-image:url('envelope.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.icon-petit-nicolas {
+  height: 30px;
+  width: 30px;
+  background-image:url('FoutainPen.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.icon-cartable {
+  height: 30px;
+  width: 30px;
+  background-image:url('Cartable.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.a-mon-sujet {
+  height: 30px;
+  width: 30px;
+  background-image:url('About.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
