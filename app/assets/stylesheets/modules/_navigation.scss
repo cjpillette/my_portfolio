@@ -22,6 +22,10 @@
   margin-top: 10px;
 }
 
+.maison-red {
+  background-image:url('cpHome-red.svg');
+}
+
 .icon-contacter-moi {
   height: 40px;
   width: 40px;
@@ -32,6 +36,10 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+.contacter-moi-red {
+  background-image:url('envelope-red.svg');
 }
 
 .icon-petit-nicolas {
@@ -46,6 +54,10 @@
   margin-top: 10px;
 }
 
+.petit-nicolas-red {
+  background-image:url('FoutainPen-red.svg');
+}
+
 .icon-cartable {
   height: 30px;
   width: 30px;
@@ -58,7 +70,11 @@
   margin-top: 10px;
 }
 
-.a-mon-sujet {
+.cartable-red {
+  background-image:url('Cartable-red.svg');
+}
+
+.icon-a-mon-sujet {
   height: 30px;
   width: 30px;
   background-image:url('About.svg');
@@ -68,4 +84,8 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+.a-mon-sujet-red {
+  background-image:url('About-red.svg');
 }

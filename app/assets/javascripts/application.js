@@ -60,12 +60,40 @@ $(window).scroll(function(){
   var art = $('#my-art').height();
   var contact = $('#contact-me').height();
   var wScroll_normalised = wScroll + nav;
-  
+
+  if (wScroll_normalised < hero ) {
+    $('.icon-maison').addClass("maison-red");
+    $('.icon-a-mon-sujet').removeClass("a-mon-sujet-red");
+  }
+
+  if (wScroll_normalised > hero && wScroll <= hero + about) {
+    $('.icon-a-mon-sujet').addClass("a-mon-sujet-red");
+    $('.icon-maison').removeClass("maison-red");
+    $('.icon-cartable').removeClass("cartable-red");
+  }
+
+  if (wScroll_normalised > hero + about && wScroll <= hero + about + portfolio) {
+    $('.icon-a-mon-sujet').removeClass("a-mon-sujet-red");
+    $('.icon-cartable').addClass("cartable-red");
+    $('.icon-petit-nicolas').removeClass("petit-nicolas-red");
+  }
+
+  if (wScroll_normalised > hero + about + portfolio && wScroll <= hero + about + portfolio + art) {
+    $('.icon-petit-nicolas').addClass("petit-nicolas-red");
+    $('.icon-cartable').removeClass("cartable-red");
+    $('.icon-contacter-moi').removeClass("contacter-moi-red");
+  }
+
+  if (wScroll_normalised > hero + about + portfolio + art && wScroll <= hero + about + portfolio + art + contact) {
+    $('.icon-contacter-moi').addClass("contacter-moi-red");
+    $('.icon-petit-nicolas').removeClass("petit-nicolas-red");
+  }
+
 
 //hero
   $('.hero-description').css({
     'transform': 'translate(0px, -'+ wScroll /20 +'% )',
-    'opacity': 30/ (wScroll + 1) - 0.1,
+    'opacity': 30/ (wScroll + 1) - 0.1
   });
 
   $('.artist-drawing').css({
