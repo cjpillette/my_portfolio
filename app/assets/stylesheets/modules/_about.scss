@@ -15,10 +15,11 @@
 }
 
 .large-window {
-  height: 18.75rem;
-  width: 18.75rem;
+  height: 300px;
+  width: 300px;
   margin: auto;
-  background-image: url('model3.jpg');
+  background-image: url('model8.jpg');
+  background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
