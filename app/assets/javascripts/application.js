@@ -17,6 +17,8 @@
 //= require turbolinks
 //= require_tree .
 
+//navigation link and smooth scroll
+
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
     var id = $(this).attr('href');
@@ -38,6 +40,17 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('body, html').animate({scrollTop: pos});
 });
 
+//scroll to the top of the page
+$(document).scroll(function(){
+
+      $(".arrow-up").on("click", function() {
+        $("body").scrollTop(0)
+      });
+
+    });
+
+
+//parallax effects
 $(window).scroll(function(){
   var wScroll = $(this).scrollTop();
   console.log(wScroll);

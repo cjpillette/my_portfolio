@@ -42,3 +42,17 @@
   text-decoration: underline;
   padding-top: 2.0625rem;
 }
+
+#ruby-animation {
+  height: 800px;
+  width: 1102px;
+  position: absolute;
+  background-image: url("Ruby-animation.gif");
+  background-size: 55% 55%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: absolute;
+  z-index: 0;
+  left:0%;
+  top: 0%;
+}
