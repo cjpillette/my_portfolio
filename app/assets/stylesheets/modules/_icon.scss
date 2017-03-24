@@ -39,7 +39,14 @@
   margin-left: 0.625rem;
   margin-right: 0.625rem;
   margin-top: 0.625rem;
+  transition: all 1s;
+  transform-origin: 50% 50%;
 }
+
+.icon-that-grows:hover{
+  transform: scale(1.2);
+}
+
 
 .node-icon {
   width: 33%;

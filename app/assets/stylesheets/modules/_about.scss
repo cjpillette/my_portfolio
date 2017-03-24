@@ -44,3 +44,9 @@
   border-radius: 0.625rem;
   box-shadow: 0.0625rem 0.125rem 0.25rem rgba(0, 0, 0, .5);
 }
+
+.learn-more-button:hover {
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+}

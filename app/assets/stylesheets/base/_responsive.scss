@@ -52,6 +52,19 @@
     width: 80%;
   }
 
+  .large-window {
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    background-image: url('model8.jpg');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+    margin-top: 40px;
+  }
+
 
 }
 
@@ -202,18 +215,6 @@
     width: 50%;
   }
 
-  .large-window {
-    height: 450px;
-    width: 450px;
-    margin: auto;
-    background-image: url('model8.jpg');
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-radius: 50%;
-    margin-top: 40px;
-  }
 
 }
 
