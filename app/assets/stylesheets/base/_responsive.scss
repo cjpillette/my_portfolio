@@ -2,6 +2,59 @@
 @import "base/_variables";
 @import "base/_global";
 
+@media screen and (min-width: 500px){
+
+  .contact-title {
+      margin-bottom: 200px;
+  }
+
+  .melbourne-wrapper {
+    margin-top: -100px;
+    display: block;
+    overflow: visible;
+    height: 400px;
+  }
+
+  #melbourne-foreground {
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: -75px;
+  }
+
+  #melbourne-background {
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: -100px;
+  }
+
+
+  #ferris-wheel {
+    height: 350px;
+    width: 350px;
+    background-size: 55% 55%;
+    background-position: left top;
+    left:10%;
+    top: -5%;
+  }
+
+  #tram {
+    top: 70%;
+    left: 35%;
+  }
+
+  form {
+    position: absolute;
+    left:10%;
+    z-index: 10;
+    top: 20%;
+    width: 80%;
+  }
+
+
+}
+
 /* Responsive for iPad*/
 
 @media screen and (min-width: 768px){
@@ -63,7 +116,7 @@
     margin-top: -100px;
     display: block;
     overflow: visible;
-    height: 350px;
+    height: 550px;
   }
 
   .contact-title {
@@ -93,7 +146,8 @@
     width: 200px;
     background-image: url("tram2x.png");
     background-size: 100% 100%;
-    margin-left:70px;
+    margin-left:50px;
+    top: 55%;
   }
 
   #ferris-wheel {
@@ -149,6 +203,8 @@
   }
 
 }
+
+
 
 /* Responsive for Desktop*/
 @media screen and (min-width: 1024px){
@@ -417,11 +473,11 @@
   }
 
   #tram {
-    height: 300px;;
+    height: 300px;
     width: 400px;
     background-image: url("tram2x.png");
     background-size: 100% 100%;
-    margin-left:200px;
+    left: 30%;
     margin-top: 80px;
   }
 

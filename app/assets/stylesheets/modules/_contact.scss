@@ -12,7 +12,8 @@
 
 .melbourne-wrapper {
   position: relative;
-  height: 288px;
+  height: 300px;
+  overflow: visible;
 }
 
 .email-box {
@@ -33,7 +34,7 @@
 
 #melbourne-background {
   position: absolute;
-  height: 19rem;
+  height: 300px;
   width: 100%;
   background-image: url("Melbourne-skyline2x.png");
   background-repeat: no-repeat;
@@ -45,7 +46,7 @@
 }
 
 #melbourne-foreground {
-  height: 15rem;
+  height: 300px;
   width: 100%;
   position: absolute;
   background-image: url("melbourne-foreground-solid2x.png");
@@ -58,8 +59,8 @@
 }
 
 #tram {
-  height: 7.0625rem;
-  width: 9.375rem;
+  height: 113px;
+  width: 150px;
   position: absolute;
   background-image: url("tram2x.png");
   background-size: 30% 30%;
@@ -72,8 +73,8 @@
 }
 
 #ferris-wheel {
-  height: 20rem;
-  width: 20rem;
+  height: 320px;
+  width: 320px;
   position: absolute;
   background-image: url("ferris3.gif");
   background-size: 55% 55%;
